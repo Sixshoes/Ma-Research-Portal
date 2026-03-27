@@ -1,0 +1,39 @@
+name: Notion 數據自動清洗同步
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # 每天台北時間早上 9:00 自動執行 (UTC 1:00)
+  workflow_dispatch:     # 讓你可以手動在 GitHub 頁面按按鈕立即執行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # 重要：允許 Action 把更新後的 JSON 推回倉庫
+
+    steps:
+      - name: 📥 檢出程式碼
+        uses: actions/checkout@v3
+
+      - name: 🐍 設定 Python 環境
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: 📦 安裝必要套件
+        run: pip install requests
+
+      - name: 🚀 執行數據清洗腳本
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          DATABASE_ID: ${{ secrets.DATABASE_ID }}
+        run: python test.py
+
+      - name: 💾 自動推送更新回 GitHub
+        run: |
+          git config --global user.name "GitHub-Action-Bot"
+          git config --global user.email "action@github.com"
+          git add papers.json
+          # 如果資料沒變動，就不會報錯中斷
+          git commit -m "🤖 自動更新 Notion 數據: $(date +'%Y-%m-%d %H:%M')" || echo "資料無變動，跳過更新"
+          git push
