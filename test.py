@@ -43,35 +43,41 @@ def sync_notion_to_window():
 
     # 🧹 階段 2：深度清洗與防錯處理
     refined_papers = []
-    print("🧹 開始數據清洗...")
+    print("🧹 開始數據清洗 (已啟動空值安全防護機制)...")
 
     for page in all_raw_data:
         props = page.get("properties", {})
         
         # 🛡️ A. 處理圖片：優先內文網址 -> 期刊網址 -> 前端遮罩
-        content_url = props.get("內文圖1網址", {}).get("url", "")
-        journal_url = props.get("期刊圖網址", {}).get("url", "")
+        content_url = props.get("內文圖1網址", {}).get("url") or ""
+        journal_url = props.get("期刊圖網址", {}).get("url") or ""
         # 如果兩者都沒有，前端會顯示 YRM 遮罩
-        cover_url = content_url if content_url else (journal_url if journal_url else "")
+        cover_url = content_url if content_url else journal_url
 
-        # 🛡️ B. 處理「期刊封面」備查圖 (已修正：改抓 URL 欄位，徹底拋棄 Notion 上傳檔案)
-        # 直接拿你手動貼的「期刊圖網址」來用，保證是永久連結
+        # 🛡️ B. 處理「期刊封面」備查圖
+        # 直接拿你手動貼的「期刊圖網址」來用，保證是永久連結，徹底拋棄 Notion 檔案！
         file_img_url = journal_url 
 
         # 📅 C. 年份清洗 (2023-09-15 -> 2023)
-        year_rich = props.get("Year", {}).get("rich_text", [])
-        raw_year = year_rich[0].get("plain_text", "") if year_rich else ""
+        year_rich_list = props.get("Year", {}).get("rich_text") or []
+        raw_year = year_rich_list[0].get("plain_text", "") if year_rich_list else ""
         clean_year = raw_year.split("-")[0] if "-" in raw_year else raw_year
 
-        # 📦 D. 組合最終物件
+        # 📦 D. 組合最終物件 (加入嚴格的空值安全防護)
+        title_list = props.get("Title", {}).get("title") or []
+        title_text = title_list[0].get("plain_text", "無標題") if title_list else "無標題"
+
+        journal_rich = props.get("Journal", {}).get("rich_text") or []
+        journal_text = journal_rich[0].get("plain_text", "Unknown") if journal_rich else "Unknown"
+
         item = {
-            "title": props.get("Title", {}).get("title", [{}])[0].get("plain_text", "無標題"),
+            "title": title_text,
             "year": clean_year,
-            "journal": props.get("Journal", {}).get("rich_text", [{}])[0].get("plain_text", "Unknown"),
-            "doi": props.get("DOI", {}).get("url", ""),
-            "citations": props.get("Citations", {}).get("number", 0),
-            "is_star": props.get("打星號論文", {}).get("select", {}).get("name", "否"),
-            "highlight": props.get("研究亮點", {}).get("formula", {}).get("string", ""),
+            "journal": journal_text,
+            "doi": props.get("DOI", {}).get("url") or "",
+            "citations": props.get("Citations", {}).get("number") or 0,
+            "is_star": (props.get("打星號論文", {}).get("select") or {}).get("name", "否"),
+            "highlight": (props.get("研究亮點", {}).get("formula") or {}).get("string", ""),
             "cover_url": cover_url,    # 前端主圖 (永久連結)
             "file_img": file_img_url   # 實體封面備查 (永久連結)
         }
