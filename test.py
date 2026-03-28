@@ -22,7 +22,7 @@ def sync_notion_to_window():
     all_raw_data = []
     has_more, next_cursor = True, None
 
-    print("🚀 [中繼站] 開始從 Notion 搬運所有 214 筆資料...")
+    print("🚀 [中繼站] 開始從 Notion 搬運所有資料...")
 
     # 🔄 階段 1：自動翻頁抓取 (解決 100 筆限制)
     while has_more:
@@ -43,7 +43,7 @@ def sync_notion_to_window():
 
     # 🧹 階段 2：深度清洗與防錯處理
     refined_papers = []
-    print("🧹 開始數據清洗與圖片權限校對...")
+    print("🧹 開始數據清洗...")
 
     for page in all_raw_data:
         props = page.get("properties", {})
@@ -54,11 +54,9 @@ def sync_notion_to_window():
         # 如果兩者都沒有，前端會顯示 YRM 遮罩
         cover_url = content_url if content_url else (journal_url if journal_url else "")
 
-        # 🛡️ B. 處理「期刊封面」檔案 (解決 IndexError)
-        file_list = props.get("期刊封面", {}).get("files", [])
-        file_img_url = ""
-        if file_list: # 如果列表不是空的，才抓取
-            file_img_url = file_list[0].get("file", {}).get("url", "")
+        # 🛡️ B. 處理「期刊封面」備查圖 (已修正：改抓 URL 欄位，徹底拋棄 Notion 上傳檔案)
+        # 直接拿你手動貼的「期刊圖網址」來用，保證是永久連結
+        file_img_url = journal_url 
 
         # 📅 C. 年份清洗 (2023-09-15 -> 2023)
         year_rich = props.get("Year", {}).get("rich_text", [])
@@ -74,8 +72,8 @@ def sync_notion_to_window():
             "citations": props.get("Citations", {}).get("number", 0),
             "is_star": props.get("打星號論文", {}).get("select", {}).get("name", "否"),
             "highlight": props.get("研究亮點", {}).get("formula", {}).get("string", ""),
-            "cover_url": cover_url,    # 前端主圖
-            "file_img": file_img_url   # 實體封面備查
+            "cover_url": cover_url,    # 前端主圖 (永久連結)
+            "file_img": file_img_url   # 實體封面備查 (永久連結)
         }
         refined_papers.append(item)
 
