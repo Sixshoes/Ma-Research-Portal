@@ -107,7 +107,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C5NR08118A&imageInfo.ImageIdentifier.Year=2016",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nr&imageInfo.ImageIdentifier.IssueId=NR018009&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR008010"
   },
   {
     "title": "Li0.5Co0.75Fe2O4 + BaTiO 3 particulate composites with coupled magnetic-electric properties",
@@ -173,7 +173,7 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D0NJ01596B&imageInfo.ImageIdentifier.Year=2020",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nj&imageInfo.ImageIdentifier.IssueId=NJ050010&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NJ&imageInfo.ImageIdentifier.IssueId=NJ044028"
   },
   {
     "title": "Investigations on silver/polyaniline electrodes for electrochemical supercapacitors",
@@ -184,7 +184,7 @@
     "is_star": "否",
     "highlight": "🔥 國際標竿",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C2CP41757J&imageInfo.ImageIdentifier.Year=2012",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=cp&imageInfo.ImageIdentifier.IssueId=CP028010&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=CP&imageInfo.ImageIdentifier.IssueId=CP014034"
   },
   {
     "title": "Electrochemically synthesized 1D and 3D hybrid Fe3+ doped ZnSe dandelions for photoelectrochemical cell application",
@@ -503,7 +503,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C5NR08417B&imageInfo.ImageIdentifier.Year=2016",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nr&imageInfo.ImageIdentifier.IssueId=NR018009&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR008006"
   },
   {
     "title": "Optical characterization of strong UV luminescence emitted from the excitonic edge of nickel oxide nanotowers",
@@ -536,7 +536,7 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C4TC00566J&imageInfo.ImageIdentifier.Year=2014",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C4TC00566J&imageInfo.ImageIdentifier.Year=2014"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TC&imageInfo.ImageIdentifier.IssueId=TC002035"
   },
   {
     "title": "Investigation of high-temperature phase transformation in one-dimensional Ta2O5 nanorods",
@@ -557,8 +557,8 @@
     "citations": 0,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nr&imageInfo.ImageIdentifier.IssueId=NR018009&imageInfo.ImageIdentifier.Year=2026",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nr&imageInfo.ImageIdentifier.IssueId=NR018009&imageInfo.ImageIdentifier.Year=2026"
+    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR011048",
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR011048"
   },
   {
     "title": "Spontaneous self-organization of Cu2O/CuO core-shell nanowires from copper nanoparticles",
@@ -591,7 +591,7 @@
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0927024821000040-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09270248.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0927024821X00025-cov150h.gif"
   },
   {
     "title": "Hierarchical 2D MnO2@1D mesoporous NiTiO3 core-shell hybrid structures for high-performance supercapattery electrodes: Theoretical and experimental investigations",
@@ -613,7 +613,7 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S187610702100208X-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X18761070.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S1876107021X00065-cov150h.gif"
   },
   {
     "title": "Atomically smooth hybrid crystalline-core glass-clad fibers for low-loss broadband wave guiding",
@@ -645,8 +645,8 @@
     "citations": 2,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "",
-    "file_img": ""
+    "cover_url": "https://journals.sagepub.com/pb-assets/societylogos/mst_society1_logo-1703672169980.gif",
+    "file_img": "https://journals.sagepub.com/pb-assets/societylogos/mst_society1_logo-1703672169980.gif"
   },
   {
     "title": "Impact of the crystal phase and 3d-valence conversion on the capacitive performance of one-dimensional MoO2, MoO3, and Magnéli-phase Mo4O11 nanorod-based pseudocapacitors",
@@ -657,7 +657,7 @@
     "is_star": "是",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2211285518301137-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2211285518301137-fx1_lrg.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2211285526X20018-cov150h.gif"
   },
   {
     "title": "Recent progress in transition metal nitride electrodes for supercapacitor, water splitting, and battery applications",
@@ -712,7 +712,7 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0577907322000521-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X05779073.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0577907322X00038-cov200h.gif"
   },
   {
     "title": "Investigation of adsorption and photocatalytic behavior of manganese doped zinc oxide nanostructures",
@@ -832,8 +832,8 @@
     "citations": 39,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nr&imageInfo.ImageIdentifier.IssueId=NR018009&imageInfo.ImageIdentifier.Year=2026",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nr&imageInfo.ImageIdentifier.IssueId=NR018009&imageInfo.ImageIdentifier.Year=2026"
+    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR011028",
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR011028"
   },
   {
     "title": "Magnetoresistance study in NiFe semicircle-ring patterned wires",
@@ -866,7 +866,7 @@
     "is_star": "否",
     "highlight": "🔥 國際標竿",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C3TC30378K&imageInfo.ImageIdentifier.Year=2013",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=tc&imageInfo.ImageIdentifier.IssueId=TC014009&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TC&imageInfo.ImageIdentifier.IssueId=TC001023"
   },
   {
     "title": "Effects of deposition temperature and thickness on the structural properties of thermal evaporated bismuth thin films",
@@ -910,7 +910,7 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C8RA03282C&imageInfo.ImageIdentifier.Year=2018",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=ra&imageInfo.ImageIdentifier.IssueId=RA016015&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=RA&imageInfo.ImageIdentifier.IssueId=RA008038"
   },
   {
     "title": "Efficient electrochromic properties of high-density and large-area arrays of one-dimensional NiO nanorods",
@@ -965,7 +965,7 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838815303066-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09258388.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838815X00296-cov150h.gif"
   },
   {
     "title": "Effect of Ni doping on the adsorption and visible light photocatalytic activity of ZnO hexagonal nanorods",
@@ -1075,7 +1075,7 @@
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C2CE06476F&imageInfo.ImageIdentifier.Year=2012",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=ce&imageInfo.ImageIdentifier.IssueId=CE028010&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=CE&imageInfo.ImageIdentifier.IssueId=CE014006"
   },
   {
     "title": "Controlled surface/interface structure and spin enabled superior properties and biocompatibility of cobalt ferrite nanoparticles",
@@ -1140,8 +1140,8 @@
     "citations": 28,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=ra&imageInfo.ImageIdentifier.IssueId=RA016015&imageInfo.ImageIdentifier.Year=2026",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=ra&imageInfo.ImageIdentifier.IssueId=RA016015&imageInfo.ImageIdentifier.Year=2026"
+    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C1NR10694E&imageInfo.ImageIdentifier.Year=2011",
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nr&imageInfo.ImageIdentifier.IssueId=NR018012&imageInfo.ImageIdentifier.Year=2026"
   },
   {
     "title": "Compact nanoarchitectures of lead selenide via successive ionic layer adsorption and reaction towards optoelectronic devices",
@@ -1273,7 +1273,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2211285524011261-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X22112855.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2211285524X00154-cov150h.gif"
   },
   {
     "title": "On-Chip Monolithically Integrated Ultraviolet Low-Threshold Plasmonic Metal‒Semiconductor Heterojunction Nanolasers",
@@ -1427,7 +1427,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D3MA00962A&imageInfo.ImageIdentifier.Year=2024",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=ma&imageInfo.ImageIdentifier.IssueId=MA007005&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=MA&imageInfo.ImageIdentifier.IssueId=MA005007"
   },
   {
     "title": "Electrochromic properties of dandelion flower like nickel oxide thin films",
@@ -1471,7 +1471,7 @@
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979715300655-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00219797.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979715X00166-cov150h.gif"
   },
   {
     "title": "Hydrothermally synthesized Iron Phosphate Hydroxide thin film electrocatalyst for electrochemical water splitting",
@@ -1504,7 +1504,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2542529319301543-fx1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X25425293.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2542529320X00034-cov150h.gif"
   },
   {
     "title": "Graphitic Carbon Nitride Composites with MoO3-Decorated Co3O4Nanorods as Catalysts for Oxygen and Hydrogen Evolution",
@@ -1602,8 +1602,8 @@
     "citations": 15,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "",
-    "file_img": ""
+    "cover_url": "https://www.ingentaconnect.com/images/journal-logos/asp/jnn.gif",
+    "file_img": "https://www.ingentaconnect.com/images/journal-logos/asp/jnn.gif"
   },
   {
     "title": "Preparation, characterization and catalytic application of nano-Fe3O4-DOPA-SnO2 having high TON and TOF for non-toxic and sustainable synthesis of dihydroquinazolinone derivatives",
@@ -1735,7 +1735,7 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0009261411011791-fx1_lrg.jpg",
-    "file_img": "https://www.sciencedirect.com/journal/chemical-physics-letters"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0009261411X00283-cov150h.gif"
   },
   {
     "title": "Mechanism of light emission and electronic properties of a Eu 3+-doped Bi2SrTa2O9 system determined by coupled X-ray absorption and emission spectroscopy",
@@ -1801,7 +1801,7 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S092583881530904X-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09258388.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838815X00296-cov150h.gif"
   },
   {
     "title": "Reciprocating Wear Behavior of Noncoated and Polymer/Composite Coated AISI 316L Steel: Role of Surface Mechanical Attrition Treatment",
@@ -1845,7 +1845,7 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C9CE01475F&imageInfo.ImageIdentifier.Year=2019",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=ce&imageInfo.ImageIdentifier.IssueId=CE028010&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=CE&imageInfo.ImageIdentifier.IssueId=CE021046"
   },
   {
     "title": "Temperature Dependence of the Band Gap and Exciton Photoreflectance in Layered Gallium Telluride",
@@ -1999,7 +1999,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352940718305778-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X23529407.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2352940718X00067-cov150h.gif"
   },
   {
     "title": "Rutile-phase TiO2@carbon core-shell nanowires and their photoactivation in visible light region",
@@ -2010,7 +2010,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0008622321004954-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00086223.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0008622321X00085-cov150h.gif"
   },
   {
     "title": "Ligand-Driven and Full-Color-Tunable Fiber Source: Toward Next-Generation Clinic Fiber-Endoscope Tomography with Cellular Resolution",
@@ -2043,7 +2043,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C6RA11348F&imageInfo.ImageIdentifier.Year=2016",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=RA&imageInfo.ImageIdentifier.IssueId=RA016015"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=RA&imageInfo.ImageIdentifier.IssueId=RA006101"
   },
   {
     "title": "Promising field electron emission performance of vertically aligned one dimensional (1D) brookite (β) TiO2 nanorods",
@@ -2054,7 +2054,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C6RA20747B&imageInfo.ImageIdentifier.Year=2016",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=ra&imageInfo.ImageIdentifier.IssueId=RA016015&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=RA&imageInfo.ImageIdentifier.IssueId=RA006101"
   },
   {
     "title": "Doping-free bandgap tunability in Fe2O3nanostructured films",
@@ -2065,7 +2065,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D1NA00442E&imageInfo.ImageIdentifier.Year=2021",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=na&imageInfo.ImageIdentifier.IssueId=NA008005&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NA&imageInfo.ImageIdentifier.IssueId=NA003019"
   },
   {
     "title": "Pushing nanoparticles of La0.7Sr0.3MnO3",
@@ -2087,7 +2087,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D3TC01958F&imageInfo.ImageIdentifier.Year=2023",
-    "file_img": "data:image/jpeg;base64,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"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TC&imageInfo.ImageIdentifier.IssueId=TC011041"
   },
   {
     "title": "Microscopy and magnetoresistance studies in zigzag and semi-circle-in-series permalloy wires",
@@ -2142,7 +2142,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C6NR02531E&imageInfo.ImageIdentifier.Year=2016",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nr&imageInfo.ImageIdentifier.IssueId=NR018009&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR008026"
   },
   {
     "title": "Nanoparticulate Films of Wo3 and Moo3 Composites for Enhancing Uv Light Electrochromic Absorption and Energy Storage Applications",
@@ -2296,7 +2296,7 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D3MA00808H&imageInfo.ImageIdentifier.Year=2024",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=ma&imageInfo.ImageIdentifier.IssueId=MA007005&imageInfo.ImageIdentifier.Year=2026"
+    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=MA&imageInfo.ImageIdentifier.IssueId=MA005010"
   },
   {
     "title": "Binder free cobalt iron phosphate thin films as efficient electrocatalysts for overall water splitting",
@@ -2307,7 +2307,7 @@
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979722000170-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00219797.jpg"
+    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979722X00027-cov200h.gif"
   },
   {
     "title": "Effect of pH on the properties of chemical bath deposited polyaniline thin film",
