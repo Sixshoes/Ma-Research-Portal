@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>馬遠榮副校長 研究成果預覽窗</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        body { background-color: #f1f5f9; margin: 0; padding: 20px; font-family: '微軟正黑體', sans-serif; }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        
+        body { background-color: #f1f5f9; margin: 0; padding: 20px; font-family: '微軟正黑體', system-ui, -apple-system, sans-serif; color: #1e293b; }
+        .container { max-width: 1200px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); }
+
         /* 🎨 YRM 幾何占位圖 */
         .ma-placeholder {
             width: 100%; height: 100%; background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
@@ -16,81 +15,238 @@
             color: #0369a1; font-family: 'Arial Black', sans-serif; font-size: 2.5rem; font-weight: 800; opacity: 0.5;
         }
         .ma-papers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
-        .ma-paper-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; transition: 0.3s; display: flex; flex-direction: column; position: relative; }
-        .ma-paper-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
-        .ma-star-badge { position: absolute; top: 10px; right: 10px; background: #f1c40f; color: #000; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; font-weight: bold; z-index: 10; }
+        .ma-paper-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; transition: transform 0.25s ease, box-shadow 0.25s ease; display: flex; flex-direction: column; position: relative; }
+        .ma-paper-card:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08); }
+        .ma-star-badge { position: absolute; top: 10px; right: 10px; background: #f1c40f; color: #000; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; font-weight: 700; z-index: 10; }
         .ma-cover-wrapper { height: 180px; background: #f8fafc; display: flex; align-items: center; justify-content: center; overflow: hidden; border-bottom: 1px solid #f1f5f9; }
         .ma-cover-img { width: 100%; height: 100%; object-fit: cover; }
         .ma-paper-info { padding: 15px; display: flex; flex-direction: column; flex-grow: 1; }
-        .ma-paper-title { font-size: 1rem; font-weight: 700; color: #1e293b; margin-bottom: 10px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+        .ma-paper-title { font-size: 1rem; font-weight: 700; color: #1e293b; margin: 0 0 10px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
         .ma-highlight { font-size: 0.75rem; background: #ecfdf5; color: #059669; padding: 5px 10px; border-radius: 6px; margin-bottom: 10px; border: 1px solid #d1fae5; }
         .ma-journal-name { color: #16a085; font-weight: 600; font-size: 0.85rem; }
-        .ma-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; border-top: 1px solid #f1f5f9; padding-top: 12px; }
+        .ma-year { font-size: 0.8rem; color: #64748b; margin-top: 4px; }
+        .ma-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; border-top: 1px solid #f1f5f9; padding-top: 12px; gap: 8px; }
         .ma-badge { background: #eff6ff; color: #2563eb; padding: 3px 8px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; }
-        .ma-doi-btn { background: #16a085; color: white !important; text-decoration: none; padding: 6px 12px; border-radius: 6px; font-size: 0.8rem; }
-        .ma-controls { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
-        #maSearchInput { padding: 8px 12px; width: 280px; border: 1px solid #cbd5e1; border-radius: 6px; }
-        .ma-btn { cursor: pointer; background: #2c3e50; color: white; border: none; padding: 8px 16px; border-radius: 6px; }
+        .ma-doi-btn { background: #16a085; color: #fff; text-decoration: none; padding: 6px 12px; border-radius: 6px; font-size: 0.8rem; }
+        .ma-doi-btn:hover { background: #138d75; }
+        .ma-controls { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 20px; }
+        #maSearchInput { padding: 8px 12px; width: min(320px, 100%); border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.9rem; }
+        .ma-controls-right { display: flex; align-items: center; gap: 15px; flex-wrap: wrap; }
+        .ma-count { font-weight: 700; color: #64748b; }
+        .ma-btn { cursor: pointer; background: #2c3e50; color: #fff; border: none; padding: 8px 16px; border-radius: 6px; font-size: 0.875rem; }
+        .ma-btn:hover { background: #1e293b; }
+        .ma-state-box { grid-column: 1 / -1; text-align: center; padding: 48px 20px; color: #64748b; background: #f8fafc; border-radius: 10px; border: 1px dashed #cbd5e1; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="ma-controls">
-            <input id="maSearchInput" onkeyup="maFilter()" placeholder="🔍 搜尋論文標題、期刊或年份..." type="text">
-            <div style="display: flex; align-items: center;">
-                <span id="maCount" style="margin-right: 15px; font-weight: bold; color: #64748b;">載入中...</span>
-                <button onclick="maToggle()" id="maToggleBtn" class="ma-btn">展開完整著作目錄</button>
+            <input id="maSearchInput" type="search" aria-label="搜尋論文標題、期刊或年份" placeholder="🔍 搜尋論文標題、期刊或年份...">
+            <div class="ma-controls-right">
+                <span id="maCount" class="ma-count" aria-live="polite">載入中...</span>
+                <button type="button" id="maToggleBtn" class="ma-btn">展開完整著作目錄</button>
             </div>
         </div>
         <div class="ma-papers-grid" id="ma-container"></div>
     </div>
 
     <script>
-        let maFullList = [];
-        let maIsShowAll = false;
-        const maCutoff = new Date().getFullYear() - 4;
+        (function () {
+            'use strict';
 
-        fetch('papers.json')
-            .then(res => res.json())
-            .then(data => {
-                maFullList = data.sort((a, b) => {
-                    if (a.is_star !== b.is_star) return a.is_star === "是" ? -1 : 1;
-                    return (parseInt(b.year)||0) - (parseInt(a.year)||0);
+            let maFullList = [];
+            let maIsShowAll = false;
+            let searchTimer = null;
+            const maCutoff = new Date().getFullYear() - 4;
+
+            const searchInput = document.getElementById('maSearchInput');
+            const countEl = document.getElementById('maCount');
+            const toggleBtn = document.getElementById('maToggleBtn');
+            const container = document.getElementById('ma-container');
+
+            function safeHttpUrl(url) {
+                if (typeof url !== 'string') return '';
+                const trimmed = url.trim();
+                return /^https?:\/\//i.test(trimmed) ? trimmed : '';
+            }
+
+            function createPlaceholder() {
+                const ph = document.createElement('div');
+                ph.className = 'ma-placeholder';
+                ph.textContent = 'YRM';
+                return ph;
+            }
+
+            function createCoverWrapper(paper) {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'ma-cover-wrapper';
+
+                const primaryUrl = safeHttpUrl(paper.cover_url);
+                const fallbackUrl = safeHttpUrl(paper.file_img);
+                const firstUrl = primaryUrl || fallbackUrl;
+
+                if (!firstUrl) {
+                    wrapper.appendChild(createPlaceholder());
+                    return wrapper;
+                }
+
+                const img = document.createElement('img');
+                img.className = 'ma-cover-img';
+                img.alt = String(paper.title || 'Publication cover');
+                img.loading = 'lazy';
+                img.decoding = 'async';
+                img.referrerPolicy = 'no-referrer';
+                img.src = firstUrl;
+
+                let triedFallback = firstUrl === fallbackUrl || !fallbackUrl;
+                img.addEventListener('error', function () {
+                    if (!triedFallback && fallbackUrl) {
+                        triedFallback = true;
+                        img.src = fallbackUrl;
+                    } else {
+                        wrapper.replaceChildren(createPlaceholder());
+                    }
                 });
+
+                wrapper.appendChild(img);
+                return wrapper;
+            }
+
+            function createCard(p) {
+                const card = document.createElement('article');
+                card.className = 'ma-paper-card';
+
+                if (p.is_star === '是') {
+                    const star = document.createElement('div');
+                    star.className = 'ma-star-badge';
+                    star.textContent = '⭐ 通訊作者';
+                    card.appendChild(star);
+                }
+
+                card.appendChild(createCoverWrapper(p));
+
+                const info = document.createElement('div');
+                info.className = 'ma-paper-info';
+
+                const title = document.createElement('h3');
+                title.className = 'ma-paper-title';
+                title.textContent = String(p.title || '無標題');
+                info.appendChild(title);
+
+                if (p.highlight) {
+                    const hl = document.createElement('div');
+                    hl.className = 'ma-highlight';
+                    hl.textContent = String(p.highlight);
+                    info.appendChild(hl);
+                }
+
+                const journal = document.createElement('div');
+                journal.className = 'ma-journal-name';
+                journal.textContent = String(p.journal || 'Unknown');
+                info.appendChild(journal);
+
+                const year = document.createElement('div');
+                year.className = 'ma-year';
+                year.textContent = `Published: ${String(p.year || '-')}`;
+                info.appendChild(year);
+
+                const footer = document.createElement('div');
+                footer.className = 'ma-footer';
+
+                const badge = document.createElement('span');
+                badge.className = 'ma-badge';
+                const citCount = Number.isFinite(Number(p.citations)) ? Number(p.citations) : 0;
+                badge.textContent = `📊 ${citCount} Citations`;
+                footer.appendChild(badge);
+
+                const doiUrl = safeHttpUrl(p.doi);
+                if (doiUrl) {
+                    const link = document.createElement('a');
+                    link.href = doiUrl;
+                    link.target = '_blank';
+                    link.rel = 'noopener noreferrer';
+                    link.className = 'ma-doi-btn';
+                    link.textContent = 'View DOI';
+                    footer.appendChild(link);
+                }
+
+                info.appendChild(footer);
+                card.appendChild(info);
+                return card;
+            }
+
+            function renderState(message) {
+                const box = document.createElement('div');
+                box.className = 'ma-state-box';
+                box.textContent = message;
+                container.replaceChildren(box);
+            }
+
+            function maFilter() {
+                const key = (searchInput.value || '').trim().toLowerCase();
+                let list = maFullList;
+
+                if (!maIsShowAll) {
+                    list = list.filter(function (p) {
+                        return (parseInt(String(p.year || '0'), 10) || 0) >= maCutoff;
+                    });
+                }
+
+                if (key) {
+                    list = list.filter(function (p) {
+                        const title = String(p.title || '').toLowerCase();
+                        const journal = String(p.journal || '').toLowerCase();
+                        const year = String(p.year || '').toLowerCase();
+                        return title.includes(key) || journal.includes(key) || year.includes(key);
+                    });
+                }
+
+                countEl.textContent = `共 ${list.length} 篇`;
+
+                if (list.length === 0) {
+                    renderState('找不到符合條件的論文，請嘗試調整關鍵字或切換顯示全部著作。');
+                    return;
+                }
+
+                const fragment = document.createDocumentFragment();
+                for (let i = 0; i < list.length; i++) {
+                    fragment.appendChild(createCard(list[i]));
+                }
+                container.replaceChildren(fragment);
+            }
+
+            toggleBtn.addEventListener('click', function () {
+                maIsShowAll = !maIsShowAll;
+                toggleBtn.textContent = maIsShowAll ? '僅顯示近五年發表' : '展開完整著作目錄';
                 maFilter();
             });
 
-        function maToggle() {
-            maIsShowAll = !maIsShowAll;
-            document.getElementById('maToggleBtn').innerText = maIsShowAll ? "僅顯示近五年發表" : "展開完整著作目錄";
-            maFilter();
-        }
+            searchInput.addEventListener('input', function () {
+                if (searchTimer) clearTimeout(searchTimer);
+                searchTimer = setTimeout(maFilter, 120);
+            });
 
-        function maFilter() {
-            const key = document.getElementById('maSearchInput').value.toLowerCase();
-            let f = maFullList;
-            if (!maIsShowAll) f = f.filter(p => (parseInt(p.year)||0) >= maCutoff);
-            if (key) f = f.filter(p => p.title.toLowerCase().includes(key) || p.journal.toLowerCase().includes(key) || p.year.includes(key));
-            
-            document.getElementById('maCount').innerText = `共 ${f.length} 篇`;
-            document.getElementById('ma-container').innerHTML = f.map(p => `
-                <div class="ma-paper-card">
-                    ${p.is_star === "是" ? '<div class="ma-star-badge">⭐ 通訊作者</div>' : ''}
-                    <div class="ma-cover-wrapper">
-                        ${p.cover_url ? `<img src="${p.cover_url}" class="ma-cover-img" onerror="this.parentElement.innerHTML='<div class=ma-placeholder>YRM</div>'">` : '<div class="ma-placeholder">YRM</div>'}
-                    </div>
-                    <div class="ma-paper-info">
-                        <h3 class="ma-paper-title">${p.title}</h3>
-                        ${p.highlight ? `<div class="ma-highlight">${p.highlight}</div>` : ''}
-                        <div class="ma-journal-name">${p.journal}</div>
-                        <div style="font-size:0.8rem; color:#64748b;">Published: ${p.year}</div>
-                        <div class="ma-footer">
-                            <span class="ma-badge">📊 ${p.citations} Citations</span>
-                            <a href="${p.doi}" target="_blank" class="ma-doi-btn">View DOI</a>
-                        </div>
-                    </div>
-                </div>`).join('');
-        }
+            fetch('papers.json', { cache: 'no-cache' })
+                .then(function (res) {
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    return res.json();
+                })
+                .then(function (data) {
+                    if (!Array.isArray(data)) throw new Error('Invalid papers.json format');
+                    maFullList = data.slice().sort(function (a, b) {
+                        if (a.is_star !== b.is_star) return a.is_star === '是' ? -1 : 1;
+                        const yearDiff = (parseInt(String(b.year || '0'), 10) || 0) - (parseInt(String(a.year || '0'), 10) || 0);
+                        if (yearDiff !== 0) return yearDiff;
+                        return (Number(b.citations) || 0) - (Number(a.citations) || 0);
+                    });
+                    maFilter();
+                })
+                .catch(function (err) {
+                    console.error('Failed to load papers.json:', err);
+                    countEl.textContent = '載入失敗';
+                    renderState('無法載入論文資料，請稍後重新整理頁面。');
+                });
+        })();
     </script>
 </body>
 </html>
