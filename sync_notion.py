@@ -27,6 +27,35 @@ MAX_DROP_RATIO = 0.30
 SCHEMA_VERSION = 2
 
 YEAR_PATTERN = re.compile(r"\b((?:19|20)\d{2})\b")
+DOI_PATTERN = re.compile(r"(10\.\d{4,9}/[^\s#?]+)", re.IGNORECASE)
+GENERIC_COVER_PATTERNS = (
+    re.compile(r"cov\d+h\.", re.IGNORECASE),
+    re.compile(r"largecover", re.IGNORECASE),
+    re.compile(r"coverissue", re.IGNORECASE),
+    re.compile(r"/X\d{7,8}\.(?:jpg|jpeg|gif|png|webp)$", re.IGNORECASE),
+    re.compile(r"cover\.gif$", re.IGNORECASE),
+    re.compile(r"cover-image\.", re.IGNORECASE),
+    re.compile(r"_cover[-.\d]", re.IGNORECASE),
+    re.compile(r"\.cover\.", re.IGNORECASE),
+    re.compile(r"sitebuilderassets/live/images/", re.IGNORECASE),
+    re.compile(r"showcoverimage", re.IGNORECASE),
+    re.compile(r"cover-hires/journal", re.IGNORECASE),
+    re.compile(r"journal-logos/", re.IGNORECASE),
+    re.compile(r"aipp\.silverchair-cdn\.com", re.IGNORECASE),
+    re.compile(r"els-cdn\.com/content/image/X\d{7,8}", re.IGNORECASE),
+    re.compile(r"wiley\.com/.*/cover/", re.IGNORECASE),
+    re.compile(
+        r"(?:^|[/._-])(logo|favicon|sprite|crossmark|orcid|badge|icon|placeholder|avatar|banner|social-share|default-og)(?:[/._-]|$)",
+        re.IGNORECASE,
+    ),
+)
+
+TRUSTED_FIGURE_CDN_PATTERNS = (
+    re.compile(r"^https://firebasestorage\.googleapis\.com/", re.IGNORECASE),
+    re.compile(r"^https://[^/]+\.firebasestorage\.app/", re.IGNORECASE),
+    re.compile(r"^https://ars\.els-cdn\.com/content/image/1-s2\.0-", re.IGNORECASE),
+    re.compile(r"^https://cdn\.ncbi\.nlm\.nih\.gov/pmc/blobs/", re.IGNORECASE),
+)
 
 BASE_DIR = Path(__file__).resolve().parent
 PAPERS_PATH = BASE_DIR / "papers.json"
@@ -97,6 +126,151 @@ def sanitize_url(raw: Any) -> str:
     if parsed.scheme in ("http", "https") and parsed.netloc:
         return url
     return ""
+
+
+def is_generic_cover_url(raw: Any) -> bool:
+    """判斷網址是否為出版社通用期刊封面、Logo 或非單篇摘要圖。"""
+    url = sanitize_url(raw)
+    if not url:
+        return True
+    return any(pattern.search(url) for pattern in GENERIC_COVER_PATTERNS)
+
+
+def is_trusted_figure_cdn(raw: Any) -> bool:
+    """判斷網址是否來自已驗證可穩定公開載入的單篇摘要圖 CDN。"""
+    url = sanitize_url(raw)
+    if not url or is_generic_cover_url(url):
+        return False
+    return any(pattern.search(url) for pattern in TRUSTED_FIGURE_CDN_PATTERNS)
+
+
+def extract_bare_doi(raw: Any) -> str:
+    """從 DOI 網址或字串抽出標準小寫 DOI（如 10.1016/j.apsusc.2026.168440）。"""
+    if not isinstance(raw, str):
+        return ""
+    match = DOI_PATTERN.search(raw.strip())
+    if not match:
+        return ""
+    return match.group(1).rstrip(".,;)").lower()
+
+
+def normalize_title_key(raw: Any) -> str:
+    """標準化標題作為次要比對鍵（去除空白、標點與大小寫差異）。"""
+    if not isinstance(raw, str):
+        return ""
+    return re.sub(r"[^a-z0-9]+", "", raw.lower())
+
+
+def pick_better_title(incoming_title: str, existing_title: str) -> str:
+    """保留修復後的完整標題（避免 Notion 截斷前綴或 (formula presented) 覆寫）。"""
+    inc = (incoming_title or "").strip()
+    ext = (existing_title or "").strip()
+    if not ext:
+        return inc or "無標題"
+    if not inc or inc == "無標題":
+        return ext
+    if "(formula presented)" in inc.lower() and "(formula presented)" not in ext.lower():
+        return ext
+    if len(ext) > len(inc) and ext.lower().endswith(inc.lower()):
+        return ext
+    return inc
+
+
+def normalize_cover_key(url: str) -> str:
+    """正規化圖源鍵值（忽略 Elsevier _lrg 尺寸後綴）以攔截重複掛載他篇摘要圖。"""
+    return re.sub(r"_lrg(?=\.[a-z0-9]+$)", "", url.strip().lower())
+
+
+def merge_and_deduplicate_papers(
+    incoming_papers: list[dict[str, Any]],
+    existing_papers: list[dict[str, Any]] | None,
+) -> list[dict[str, Any]]:
+    """非破壞性合併：保留既有清洗後的高解析摘要圖、作者、較高引用數與修復標題，並依 DOI 去重。"""
+    existing_list = existing_papers if isinstance(existing_papers, list) else []
+    by_doi: dict[str, dict[str, Any]] = {}
+    by_title: dict[str, dict[str, Any]] = {}
+    existing_cover_owner: dict[str, str] = {}
+
+    for item in existing_list:
+        if not isinstance(item, dict):
+            continue
+        bare_doi = extract_bare_doi(item.get("doi"))
+        if bare_doi:
+            by_doi[bare_doi] = item
+        title_key = normalize_title_key(item.get("title"))
+        if title_key:
+            by_title[title_key] = item
+        cur_cover = sanitize_url(item.get("cover_url"))
+        if cur_cover and bare_doi:
+            existing_cover_owner[normalize_cover_key(cur_cover)] = bare_doi
+
+    merged: list[dict[str, Any]] = []
+    seen_by_doi: dict[str, int] = {}
+
+    for raw_item in incoming_papers:
+        item = dict(raw_item)
+        bare_doi = extract_bare_doi(item.get("doi"))
+        title_key = normalize_title_key(item.get("title"))
+
+        prev = by_doi.get(bare_doi) if bare_doi else None
+        if prev is None and title_key:
+            prev = by_title.get(title_key)
+
+        # 過濾 Notion 端舊通用期刊封面，避免再次污染 cover_url / file_img
+        if is_generic_cover_url(item.get("cover_url")):
+            item["cover_url"] = ""
+        if is_generic_cover_url(item.get("file_img")):
+            item["file_img"] = ""
+
+        if prev is not None:
+            prev_doi = extract_bare_doi(prev.get("doi"))
+            if not bare_doi and prev_doi:
+                item["doi"] = sanitize_url(prev.get("doi")) or f"https://doi.org/{prev_doi}"
+                bare_doi = prev_doi
+
+            item["title"] = pick_better_title(str(item.get("title") or ""), str(prev.get("title") or ""))
+            item["citations"] = max(int(item.get("citations") or 0), int(prev.get("citations") or 0))
+
+            prev_cover = sanitize_url(prev.get("cover_url"))
+            if prev_cover and not is_generic_cover_url(prev_cover):
+                # 既有論文已有經檢驗之單篇摘要圖：保留既有圖源，避免被 Notion 舊網址覆蓋
+                item["cover_url"] = prev_cover
+            elif item.get("cover_url"):
+                owner_doi = existing_cover_owner.get(normalize_cover_key(item["cover_url"]))
+                is_owned_by_other = bool(owner_doi and owner_doi != bare_doi)
+                if is_owned_by_other or not is_trusted_figure_cdn(item.get("cover_url")):
+                    # 既有論文已清洗清空破圖/403/重複他篇網址：不讓舊網址回流
+                    item["cover_url"] = ""
+
+            if not sanitize_url(prev.get("file_img")):
+                item["file_img"] = ""
+
+            if not str(item.get("authors") or "").strip() and str(prev.get("authors") or "").strip():
+                item["authors"] = str(prev["authors"]).strip()
+
+            if not str(item.get("altmetric_id") or "").strip() and str(prev.get("altmetric_id") or "").strip():
+                item["altmetric_id"] = str(prev["altmetric_id"]).strip()
+
+        if bare_doi and bare_doi in seen_by_doi:
+            existing_idx = seen_by_doi[bare_doi]
+            target = merged[existing_idx]
+            target["title"] = pick_better_title(str(item.get("title") or ""), str(target.get("title") or ""))
+            target["citations"] = max(int(target.get("citations") or 0), int(item.get("citations") or 0))
+            if item.get("is_star") == "是":
+                target["is_star"] = "是"
+            if not target.get("cover_url") and item.get("cover_url"):
+                target["cover_url"] = item["cover_url"]
+            if not target.get("authors") and item.get("authors"):
+                target["authors"] = item["authors"]
+            if not target.get("altmetric_id") and item.get("altmetric_id"):
+                target["altmetric_id"] = item["altmetric_id"]
+            continue
+
+        if bare_doi:
+            seen_by_doi[bare_doi] = len(merged)
+        merged.append(item)
+
+    return merged
 
 
 def clean_year(year_prop: dict[str, Any] | None) -> str:
@@ -326,12 +500,14 @@ def sync_notion_to_json(
     allow_large_drop = (os.getenv("ALLOW_LARGE_DROP") or "").strip().lower() == "true"
 
     raw_pages = fetch_all_notion_pages(token, database_id, session=session)
-    print("🧹 開始數據清洗與確定性排序...")
-    refined_papers = sort_papers([transform_page(page) for page in raw_pages])
+    print("🧹 開始數據清洗、非破壞性合併與確定性排序...")
+    existing_papers = load_json_if_exists(papers_path)
+    transformed = [transform_page(page) for page in raw_pages]
+    merged_papers = merge_and_deduplicate_papers(transformed, existing_papers)
+    refined_papers = sort_papers(merged_papers)
 
     validate_against_existing(refined_papers, papers_path, allow_large_drop=allow_large_drop)
 
-    existing_papers = load_json_if_exists(papers_path)
     papers_changed = existing_papers != refined_papers
 
     if papers_changed:

@@ -8,8 +8,10 @@
     "citations": 0,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "",
-    "file_img": ""
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0169433226026449-ga1_lrg.jpg",
+    "file_img": "",
+    "authors": "Giang Thi Phan, Yuan-Ron Ma, Chi-Tsu Yuan, Ji-Lin Shen, Wen-Yu Wen, Chuan-Che Hsu, Chii-Bin Wu, Vu Hoang Huong, Duy Van Pham",
+    "altmetric_id": "10.1016/j.apsusc.2026.168440"
   },
   {
     "id": "31f1bcc1-f442-8193-9fad-e52a9527423b",
@@ -17,11 +19,13 @@
     "year": "2026",
     "journal": "Journal of Materials Chemistry A",
     "doi": "https://doi.org/10.1039/d5ta09838f",
-    "citations": 1,
+    "citations": 3,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D5TA09838F&imageInfo.ImageIdentifier.Year=2026",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TA&imageInfo.ImageIdentifier.IssueId=TA014015"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Manopriya Samtham, Aayushi Miglani, Ajay Patil, Venkatesh Dharavath, Santosh Bimli, Himanshu Srivastava, Ravindra Jangir, Yuan-Ron Ma, Ram J. Choudhary, Rupesh S. Devan",
+    "altmetric_id": "10.1039/d5ta09838f"
   },
   {
     "id": "3f71bcc1-f442-81bc-8c5c-e07020cb14de",
@@ -32,8 +36,10 @@
     "citations": 0,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "",
-    "file_img": ""
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838826055593-gr1_lrg.jpg",
+    "file_img": "",
+    "authors": "Sujit A. Kadam, Chetan K. Zankat, Ranjan Kr. Giri, Ankurkumar J. Khimani, Megha H. Patel, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.jallcom.2026.191490"
   },
   {
     "id": "3f01bcc1-f442-8193-8be8-c6b3d77874e1",
@@ -44,8 +50,10 @@
     "citations": 0,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "",
-    "file_img": ""
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838826054551-gr1_lrg.jpg",
+    "file_img": "",
+    "authors": "Clara Sinta Saragih, Denny Pratama Hasibuan, Carlo C. Sta. Maria, Duy Van Pham, Te-Hao Lo, Yan-Ruei Chen, Rupesh S. Devan, Chien-Chi Lai, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.jallcom.2026.191386"
   },
   {
     "id": "31f1bcc1-f442-818c-90e9-c9aecd98c147",
@@ -57,7 +65,9 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0577907325004575-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X05779073.jpg"
+    "file_img": "",
+    "authors": "Duy Van Pham, Yi-Xuan Lu, Yu-Hsiang Wang, Carlo C.Sta. Maria, Ming-Hsien Lee, Chien-Chih Lai, Rupesh S. Devan, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.cjph.2025.12.006"
   },
   {
     "id": "3c61bcc1-f442-81f6-a57d-df90106b39c3",
@@ -69,7 +79,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Ekta Choudhary, Vishesh Manjunath, Suman Yadav, Rishav Sharma, Yuan-Ron Ma, Ravindra Jangir, Parvez A. Shaikh, Rupesh S. Devan",
+    "altmetric_id": "10.1039/d6nr01539e"
   },
   {
     "id": "31f1bcc1-f442-81c3-8fb9-cf44d1d224ae",
@@ -77,11 +89,13 @@
     "year": "2025",
     "journal": "Fuel",
     "doi": "https://doi.org/10.1016/j.fuel.2024.133916",
-    "citations": 19,
+    "citations": 22,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0016236124030667-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00162361.jpg"
+    "file_img": "",
+    "authors": "Ritu Raj, Muzahir Iqbal, Mange Ram, Gautam Kumar, Ranit A. Patil, Yuan-Ron Ma, Gajendra Prasad Singh, Krishna Kanta Haldar",
+    "altmetric_id": "10.1016/j.fuel.2024.133916"
   },
   {
     "id": "31f1bcc1-f442-811e-8bb8-ca6d33b9e6c4",
@@ -93,7 +107,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0011916425005065-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00119164.jpg"
+    "file_img": "",
+    "authors": "Sameena R. Mulani, Santosh Bimli, Ajay Patil, Harshada Jadhav, Aayushi Miglani, Yuan-Ron Ma, Parvez A. Shaikh, Rupesh S. Devan",
+    "altmetric_id": "10.1016/j.desal.2025.119030"
   },
   {
     "id": "31f1bcc1-f442-812b-9a69-e88bdf3a8e80",
@@ -101,11 +117,13 @@
     "year": "2025",
     "journal": "Journal of Energy Storage",
     "doi": "https://doi.org/10.1016/j.est.2025.118488",
-    "citations": 7,
+    "citations": 8,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352152X25032013-ga1.jpg",
-    "file_img": "https://secure-ecsd.elsevier.com/covers/80/Tango2/large/2352152X.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352152X25032013-ga1_lrg.jpg",
+    "file_img": "",
+    "authors": "Girish R. Wakale, Ekta Choudhary, Manopriya Samtham, Ajay Patil, Ankit Yadav, Suman Yadav, Rishav Sharma, Yuan-Ron Ma, Ravindra Jangir, Harshada Jadhav, Rupesh S. Devan",
+    "altmetric_id": "10.1016/j.est.2025.118488"
   },
   {
     "id": "31f1bcc1-f442-81c7-b545-c8c47de022a5",
@@ -113,11 +131,13 @@
     "year": "2025",
     "journal": "ACS Applied Materials and Interfaces",
     "doi": "https://doi.org/10.1021/acsami.4c17178",
-    "citations": 3,
+    "citations": 4,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acsami.4c17178/asset/images/medium/am4c17178_0006.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/aamick.2025.17.issue-6/asset/19c0970c-4b19-0970-b4b1-c0970cb4b19c/aamick.2025.17.issue-6.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Carlo C. Sta. Maria, Po-Hung Wu, Denny Pratama Hasibuan, Clara Sinta Saragih, Hien Giap, Duc Huy Nguyen, Yan-Ruei Chen, Giang Thi Phan, Duy Van Pham, Ji-Lin Shen, Chien-Chih Lai, Maw-Kuen Wu, Yuan-Ron Ma",
+    "altmetric_id": "10.1021/acsami.4c17178"
   },
   {
     "id": "31f1bcc1-f442-81bc-a615-fe0d0ef4aee3",
@@ -125,11 +145,13 @@
     "year": "2025",
     "journal": "Journal of Water Process Engineering",
     "doi": "https://doi.org/10.1016/j.jwpe.2025.108913",
-    "citations": 2,
+    "citations": 3,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2214714425019865-ga1.jpg",
-    "file_img": "https://secure-ecsd.elsevier.com/covers/80/Tango2/largest/22147144.jpg"
+    "file_img": "",
+    "authors": "Akshita Mittal, Sameena R. Mulani, Ajay Patil, Santosh Bimli, Ekta Choudhary, Suman Yadav, Aayushi Miglani, Rajendra Bunkar, Yuan-Ron Ma, Rupesh S. Devan",
+    "altmetric_id": "10.1016/j.jwpe.2025.108913"
   },
   {
     "id": "31f1bcc1-f442-8162-83c1-f62c53ac1c89",
@@ -140,8 +162,10 @@
     "citations": 0,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352152X25032013-ga1.jpg",
-    "file_img": "https://secure-ecsd.elsevier.com/covers/80/Tango2/large/2352152X.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Girish R. Wakale, Ekta Choudhary, Manopriya Samtham, Ajay Patil, Ankit Yadav, Suman Yadav, Rishav Sharma, Yuan-Ron Ma, Ravindra Jangir, Harshada Jadhav, Rupesh S. Devan",
+    "altmetric_id": "10.1016/j.est.2025.118844"
   },
   {
     "id": "31f1bcc1-f442-814f-a9c5-cea20c6f51ca",
@@ -152,8 +176,10 @@
     "citations": 47,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X09258388.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09258388.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838823043864-gr1_lrg.jpg",
+    "file_img": "",
+    "authors": "Sujit A. Kadam, Lolly Maria Jose, Nithya S. George, S. Sreehari, D.A. Nayana, Duy Van Pham, Komal Prakash Kadam, Arun Aravind, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.jallcom.2023.173083"
   },
   {
     "id": "31f1bcc1-f442-81c3-a511-f14040338569",
@@ -164,8 +190,10 @@
     "citations": 44,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acsanm.4c05598/asset/images/medium/an4c05598_0009.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/aanmf6.2024.7.issue-23/asset/19a4d9d0-ea19-4d9d-8ea1-a4d9d08ea19a/aanmf6.2024.7.issue-23.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Sujit Anil Kadam, Dhayanantha Prabu Jaihindh, Yan-Ruei Chen, Komal Prakash Kadam, Hao-Wei Hsieh, Sumit Bera, Santosh KC, Anirudha V. Sumant, Yen-Pei Fu, Chien-Chih Lai, Yuan-Ron Ma, Nihar Ranjan Pradhan",
+    "altmetric_id": "10.1021/acsanm.4c05598"
   },
   {
     "id": "31f1bcc1-f442-81f8-831a-e54fa7b14547",
@@ -176,8 +204,10 @@
     "citations": 41,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D3MA00808H&imageInfo.ImageIdentifier.Year=2024",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=MA&imageInfo.ImageIdentifier.IssueId=MA005010"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Ankurkumar J. Khimani, Sujit A. Kadam, Ranjan Kr. Giri, Chetan K. Zankat, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/d3ma00808h"
   },
   {
     "id": "31f1bcc1-f442-81a3-a3e4-fc63a42dd33b",
@@ -188,8 +218,24 @@
     "citations": 37,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D3MA00962A&imageInfo.ImageIdentifier.Year=2024",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=MA&imageInfo.ImageIdentifier.IssueId=MA005007"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Prasad R. Godse, Sujit A. Kadam, Tanaji M. Nimbalkar, Yogesh M. Jadhav, Yuvraj B. Jadhao, Yuan-Ron Ma, Vikas B. Patil",
+    "altmetric_id": "10.1039/d3ma00962a"
+  },
+  {
+    "id": "31f1bcc1-f442-81ea-a02d-db63e5ad6d5e",
+    "title": "Microporous α-Fe2O3@NiO Heterostructures Synthesized for Enhanced Supercapacitor Performance",
+    "year": "2024",
+    "journal": "Chemistryselect",
+    "doi": "https://doi.org/10.1002/slct.202302376",
+    "citations": 34,
+    "is_star": "是",
+    "highlight": "📄 一般論文",
+    "cover_url": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/d69ae287-d7c0-4b3a-b45d-215857df7f93/slct202302376-toc-0001-m.jpg",
+    "file_img": "",
+    "authors": "Sujit A. Kadam, Komal P. Kadam, Carlo C. Sta. Maria, Yuan‐Ron Ma, Avinash C. Molane, Sumit A. Lolage, Vikas B. Patil, Pravin D. More",
+    "altmetric_id": "10.1002/slct.202302376"
   },
   {
     "id": "31f1bcc1-f442-81a2-915d-f0ccea6899ef",
@@ -201,19 +247,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925400523015617-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09254005.jpg"
-  },
-  {
-    "id": "31f1bcc1-f442-81ea-a02d-db63e5ad6d5e",
-    "title": "Microporous α-Fe2O3@NiO Heterostructures Synthesized for Enhanced Supercapacitor Performance",
-    "year": "2024",
-    "journal": "Chemistryselect",
-    "doi": "https://doi.org/10.1002/slct.202302376",
-    "citations": 32,
-    "is_star": "是",
-    "highlight": "📄 一般論文",
-    "cover_url": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/d69ae287-d7c0-4b3a-b45d-215857df7f93/slct202302376-toc-0001-m.jpg",
-    "file_img": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/331e5c8b-62ae-4359-a4eb-28d315297152/slct.v9.14.cover.gif"
+    "file_img": "",
+    "authors": "Gajanan M. Hingangavkar, Sujit A. Kadam, Yuan-Ron Ma, Manickam Selvaraj, Ramesh N. Mulik, Vikas B. Patil",
+    "altmetric_id": "10.1016/j.snb.2023.134843"
   },
   {
     "id": "31f1bcc1-f442-81a1-a2b9-ca34f35cf1c4",
@@ -221,11 +257,13 @@
     "year": "2024",
     "journal": "Journal of Alloys and Compounds",
     "doi": "https://doi.org/10.1016/j.jallcom.2023.172722",
-    "citations": 28,
+    "citations": 29,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838823040252-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09258388.jpg"
+    "file_img": "",
+    "authors": "Vu Hoang Huong, Trinh Thi Loan, Khanh-Phong Pham, Minh Ngoc Ha, Quang Hoa Nguyen, Yuan-Ron Ma, An Bang Ngac, Van-Can Nguyen",
+    "altmetric_id": "10.1016/j.jallcom.2023.172722"
   },
   {
     "id": "31f1bcc1-f442-8199-9228-ce34e31ecbe7",
@@ -237,7 +275,9 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2211285524011261-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2211285524X00154-cov150h.gif"
+    "file_img": "",
+    "authors": "Giang Thi Phan, Duy Van Pham, Ngoc Linh Doan Thi, Carlo C. Sta. Maria, Ying-Hao Chu, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.nanoen.2024.110374"
   },
   {
     "id": "31f1bcc1-f442-8101-9e46-da3acb1100fc",
@@ -245,11 +285,13 @@
     "year": "2024",
     "journal": "Ceramics International",
     "doi": "https://doi.org/10.1016/j.ceramint.2024.02.084",
-    "citations": 19,
+    "citations": 22,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X02728842.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X02728842.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0272884224005698-gr1_lrg.jpg",
+    "file_img": "",
+    "authors": "Gajanan M. Hingangavkar, Sujit A. Kadam, Yuan-Ron Ma, Manickam Selvaraj, Khalid Ali Khan, Ramesh N. Mulik, Vikas B. Patil",
+    "altmetric_id": "10.1016/j.ceramint.2024.02.084"
   },
   {
     "id": "31f1bcc1-f442-8156-bea5-db3335538149",
@@ -260,8 +302,10 @@
     "citations": 18,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0360319924006888-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X03603199.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0360319924006888-ga1_lrg.jpg",
+    "file_img": "",
+    "authors": "Suraj A. Khalate, Sujit A. Kadam, Yuan-Ron Ma, Sambhaji S. Kumbhar, Shraddha B. Bhosale, Vinod V. Patil, Vinayak G. Parale, Sachin B. Kulkarni, Chandrakant D. Lokhande, Hyung-Ho Park, Umakant M. Patil",
+    "altmetric_id": "10.1016/j.ijhydene.2024.02.259"
   },
   {
     "id": "31f1bcc1-f442-819c-9efc-dbaea9f76351",
@@ -269,11 +313,13 @@
     "year": "2024",
     "journal": "Journal of Alloys and Compounds",
     "doi": "https://doi.org/10.1016/j.jallcom.2024.174109",
-    "citations": 14,
+    "citations": 16,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838824006960-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09258388.jpg"
+    "file_img": "",
+    "authors": "Tanaji M. Nimbalkar, Sujit A. Kadam, Yuan-Ron Ma, Atul C. Khot, Manickam Selvaraj, Zubair Ahmad, Vikas B. Patil",
+    "altmetric_id": "10.1016/j.jallcom.2024.174109"
   },
   {
     "id": "31f1bcc1-f442-8101-bd77-f42fdb0ad44d",
@@ -281,11 +327,13 @@
     "year": "2024",
     "journal": "ACS Applied Materials and Interfaces",
     "doi": "https://doi.org/10.1021/acsami.3c17114",
-    "citations": 8,
+    "citations": 9,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acsami.3c17114/asset/images/medium/am3c17114_0007.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/aamick.2024.16.issue-10/asset/19267426-e519-6742-ce51-267426ce5192/aamick.2024.16.issue-10.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Lokesh Saravanan, Pandiyarajan Anand, Yen-Pei Fu, Yuan-Ron Ma, Wang-Chi Yeh",
+    "altmetric_id": "10.1021/acsami.3c17114"
   },
   {
     "id": "31f1bcc1-f442-81b0-8677-e5e011a1820a",
@@ -297,7 +345,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0272884224031183-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X02728842.jpg"
+    "file_img": "",
+    "authors": "Tanaji M. Nimbalkar, Sujit A. Kadam, Yuan-Ron Ma, Manickam Selvaraj, Mohammed A. Assiri, Vikas B. Patil",
+    "altmetric_id": "10.1016/j.ceramint.2024.07.216"
   },
   {
     "id": "31f1bcc1-f442-814e-bf1c-e3afbc508d30",
@@ -305,11 +355,13 @@
     "year": "2024",
     "journal": "Materials Science and Technology United Kingdom",
     "doi": "https://doi.org/10.1177/02670836241245811",
-    "citations": 5,
+    "citations": 6,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://journals.sagepub.com/pb-assets/societylogos/mst_society1_logo-1703672169980.gif",
-    "file_img": "https://journals.sagepub.com/pb-assets/societylogos/mst_society1_logo-1703672169980.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Vikesh Kumar, Nilesh K. Kumbhar, Manoj D. Joshi, Yuan-Ron Ma, Indrasen Singh, Santosh S. Hosmani",
+    "altmetric_id": "10.1177/02670836241245811"
   },
   {
     "id": "31f1bcc1-f442-81a0-8a0e-e1c78b45de23",
@@ -321,7 +373,9 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2590049824000626-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2590049824X0003X-cov200h.gif"
+    "file_img": "",
+    "authors": "Clara Sinta Saragih, Duy Van Pham, Jun-Xiao Lin, Wei-Jhong Chen, Po-Hung Wu, Chun-Chuen Yang, Chien-Chih Lai, Chih-Hung Tsai, Hua-Shu Hsu, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.mtadv.2024.100525"
   },
   {
     "id": "31f1bcc1-f442-8100-9bb3-ebfa0caa25b5",
@@ -329,11 +383,13 @@
     "year": "2023",
     "journal": "Chemical Engineering Journal",
     "doi": "https://doi.org/10.1016/j.cej.2023.144789",
-    "citations": 81,
+    "citations": 86,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1385894723035209-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X13858947.jpg"
+    "file_img": "",
+    "authors": "Gajanan M. Hingangavkar, Sujit A. Kadam, Yuan-Ron Ma, Sushilkumar S. Bandgar, Ramesh N. Mulik, Vikas B. Patil",
+    "altmetric_id": "10.1016/j.cej.2023.144789"
   },
   {
     "id": "31f1bcc1-f442-81e3-9fe8-f8289fedd8f9",
@@ -341,11 +397,13 @@
     "year": "2023",
     "journal": "Journal of Energy Storage",
     "doi": "https://doi.org/10.1016/j.est.2023.108229",
-    "citations": 56,
+    "citations": 57,
     "is_star": "是",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352152X23016262-ga1.jpg",
-    "file_img": "https://secure-ecsd.elsevier.com/covers/80/Tango2/large/2352152X.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352152X23016262-ga1_lrg.jpg",
+    "file_img": "",
+    "authors": "Sujit A. Kadam, Ranjit S. Kate, Vincent M. Peheliwa, Shruti A. Shingate, Carlo C. Sta. Maria, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.est.2023.108229"
   },
   {
     "id": "31f1bcc1-f442-8132-986b-f485e06cc433",
@@ -353,11 +411,13 @@
     "year": "2023",
     "journal": "Journal of Alloys and Compounds",
     "doi": "https://doi.org/10.1016/j.jallcom.2023.168849",
-    "citations": 48,
+    "citations": 52,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838823001524-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09258388.jpg"
+    "file_img": "",
+    "authors": "Gajanan M. Hingangavkar, Sujit A. Kadam, Yuan-Ron Ma, Ramesh N. Mulik, Vikas B. Patil",
+    "altmetric_id": "10.1016/j.jallcom.2023.168849"
   },
   {
     "id": "31f1bcc1-f442-81a8-9f88-e495eecf698e",
@@ -365,11 +425,13 @@
     "year": "2023",
     "journal": "Electrocatalysis",
     "doi": "https://doi.org/10.1007/s12678-023-00822-1",
-    "citations": 37,
+    "citations": 40,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs12678-023-00822-1/MediaObjects/12678_2023_822_Figa_HTML.png?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/12678?as=webp"
+    "file_img": "",
+    "authors": "Krishna Kanta Haldar, Imtiaz Ahmed, Rathindranath Biswas, Shouvik Mete, Ranjit A. Patil, Yuan-Ron Ma",
+    "altmetric_id": "10.1007/s12678-023-00822-1"
   },
   {
     "id": "31f1bcc1-f442-8175-9b8d-c28fdb3b7b49",
@@ -380,8 +442,10 @@
     "citations": 35,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1387700322010164-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S1387700322X00129-cov200h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1387700322010164-ga1_lrg.jpg",
+    "file_img": "",
+    "authors": "Lolly Maria Jose, Susmi Anna Thomas, Arun Aravind, Yuan-Ron Ma, Sujit Anil Kadam",
+    "altmetric_id": "10.1016/j.inoche.2022.110208"
   },
   {
     "id": "31f1bcc1-f442-8149-9816-ce6416bb8bf6",
@@ -389,11 +453,27 @@
     "year": "2023",
     "journal": "Journal of Electroanalytical Chemistry",
     "doi": "https://doi.org/10.1016/j.jelechem.2023.117359",
-    "citations": 34,
+    "citations": 35,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1572665723002199-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S1572665723X00101-cov200h.gif"
+    "file_img": "",
+    "authors": "Narasimharao Kitchamsetti, Manopriya Samtham, Diwakar Singh, Ekta Choudhary, Sachin R. Rondiya, Yuan-Ron Ma, Russell W. Cross, Nelson Y. Dzade, Rupesh S. Devan",
+    "altmetric_id": "10.1016/j.jelechem.2023.117359"
+  },
+  {
+    "id": "31f1bcc1-f442-816b-a180-e507704bfaf0",
+    "title": "Tailored formation of WO3-rGO nanohybrids for dependable low temperature NO2 sensing",
+    "year": "2023",
+    "journal": "Ceramics International",
+    "doi": "https://doi.org/10.1016/j.ceramint.2023.09.223",
+    "citations": 35,
+    "is_star": "否",
+    "highlight": "📄 一般論文",
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S027288422302850X-gr1_lrg.jpg",
+    "file_img": "",
+    "authors": "Gajanan M. Hingangavkar, Sujit A. Kadam, Yuan-Ron Ma, Sushilkumar S. Bandgar, Ramesh N. Mulik, Vikas B. Patil",
+    "altmetric_id": "10.1016/j.ceramint.2023.09.223"
   },
   {
     "id": "31f1bcc1-f442-815a-b1ce-c4523803885d",
@@ -401,11 +481,13 @@
     "year": "2023",
     "journal": "Energy and Fuels",
     "doi": "https://doi.org/10.1021/acs.energyfuels.2c03384",
-    "citations": 32,
+    "citations": 33,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acs.energyfuels.2c03384/asset/images/medium/ef2c03384_0008.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/enfuem.2023.37.issue-1/asset/18580f3f-9a18-80f3-e9a1-580f3fe9a185/enfuem.2023.37.issue-1.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rathindranath Biswas, Pooja Thakur, Imtiaz Ahmed, Tanmay Rom, Mir Sahidul Ali, Ranjit A. Patil, Bhupender Kumar, Shubham Som, Deepak Chopra, Avijit Kumar Paul, Yuan-Ron Ma, Krishna Kanta Haldar",
+    "altmetric_id": "10.1021/acs.energyfuels.2c03384"
   },
   {
     "id": "31f1bcc1-f442-8136-96a7-cac0f816b219",
@@ -417,7 +499,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352507X23000276-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2352507X23X0002X-cov200h.gif"
+    "file_img": "",
+    "authors": "Gajanan M. Hingangavkar, Sujit A. Kadam, Yuan-Ron Ma, Shrikrishna D. Sartale, Ramesh N. Mulik, Vikas B. Patil",
+    "altmetric_id": "10.1016/j.nanoso.2023.100964"
   },
   {
     "id": "31f1bcc1-f442-8132-972a-d4186d0d2d14",
@@ -428,20 +512,10 @@
     "citations": 32,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/11664?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/11664?as=webp"
-  },
-  {
-    "id": "31f1bcc1-f442-816b-a180-e507704bfaf0",
-    "title": "Tailored formation of WO3-rGO nanohybrids for dependable low temperature NO2 sensing",
-    "year": "2023",
-    "journal": "Ceramics International",
-    "doi": "https://doi.org/10.1016/j.ceramint.2023.09.223",
-    "citations": 29,
-    "is_star": "否",
-    "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X02728842.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X02728842.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Sujit A. Kadam, Yuan-Ron Ma, Yan-Ruei Chen, Yuvraj H. Navale, Amol S. Salunkhe, Vikas B. Patil, Sachin D. Ralegankar, Pravin D. More",
+    "altmetric_id": "10.1007/s11664-022-10019-9"
   },
   {
     "id": "31f1bcc1-f442-8192-bbc6-d5e776c0fa69",
@@ -453,7 +527,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925346723004366-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09253467.jpg"
+    "file_img": "",
+    "authors": "Vu Hoang Huong, Van-Can Nguyen, Minh Ngoc Ha, Duy Van Pham, Thanh Binh Nguyen, Yuan-Ron Ma, An Bang Ngac, Trinh Thi Loan",
+    "altmetric_id": "10.1016/j.optmat.2023.113864"
   },
   {
     "id": "31f1bcc1-f442-8132-9a7e-f3f411c4de01",
@@ -464,8 +540,10 @@
     "citations": 28,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X09253467.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09253467.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925346722013878-gr1_lrg.jpg",
+    "file_img": "",
+    "authors": "Lolly Maria Jose, Nithya S. George, Sujit Anil Kadam, S. Athira, Kripa A, Arun Aravind, Yuan-Ron Ma, Yan-Ruei Chen",
+    "altmetric_id": "10.1016/j.optmat.2022.113348"
   },
   {
     "id": "31f1bcc1-f442-81f7-9e8c-e773a55081c9",
@@ -476,8 +554,10 @@
     "citations": 24,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468623000841-ga1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00134686.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468623000841-ga1_lrg.jpg",
+    "file_img": "",
+    "authors": "Chia-Chun Wei, Tung-Han Wu, Jun-Wei Huang, Ben-Li Young, Wen-Bin Jian, Yu-Liang Lin, Jiun-Tai Chen, Chain-Shu Hsu, Yuan-Ron Ma, Kazuhito Tsukagoshi",
+    "altmetric_id": "10.1016/j.electacta.2023.141897"
   },
   {
     "id": "31f1bcc1-f442-813b-aa12-f8f19275c019",
@@ -488,8 +568,10 @@
     "citations": 17,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10854?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10854?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Govinda A. Kadam, Sagar A. Patil, Bajarang B. Patil, Sarita S. Kumbhar, Sambhaji S. Kumbhar, Suraj B. Madake, Laxman D. Kadam, Yuan-Ron Ma, Sujit A. Kadam, Rajesh K. Nimat",
+    "altmetric_id": "10.1007/s10854-022-09796-0"
   },
   {
     "id": "31f1bcc1-f442-81e1-9cc6-d2d2a4cb41ab",
@@ -497,11 +579,13 @@
     "year": "2023",
     "journal": "Journal of Materials Chemistry C",
     "doi": "https://doi.org/10.1039/d3tc01958f",
-    "citations": 12,
+    "citations": 13,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D3TC01958F&imageInfo.ImageIdentifier.Year=2023",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TC&imageInfo.ImageIdentifier.IssueId=TC011041"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Carlo C. Sta. Maria, Po-Hung Wu, Denny Pratama Hasibuan, Clara Sinta Saragih, Hien Giap, Duc Huy Nguyen, Yan-Ruei Chen, Ranjit A. Patil, Duy Van Pham, Ji-Lin Shen, Chien-Chih Lai, Maw-Kuen Wu, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/d3tc01958f"
   },
   {
     "id": "31f1bcc1-f442-81c1-9344-f7a6e2d43e40",
@@ -512,8 +596,10 @@
     "citations": 11,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://advanced.onlinelibrary.wiley.com/cms/asset/d3425bdd-72d9-46f3-8caa-e1da8d2777c4/adom.v11.17.cover.jpg",
-    "file_img": "https://advanced.onlinelibrary.wiley.com/cms/asset/d3425bdd-72d9-46f3-8caa-e1da8d2777c4/adom.v11.17.cover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Vincent M. Peheliwa, Kuan‐Cheng Lu, Denny Pratama Hasibuan, Clara Sinta Saragih, Carlo C. Sta. Maria, Yen‐Rui Chen, Ranjit A. Patil, Chien‐Chih Lai, Wen‐Bin Jian, Maw‐Kuen Wu, Yuan‐Ron Ma",
+    "altmetric_id": "10.1002/adom.202300395"
   },
   {
     "id": "31f1bcc1-f442-819b-a26a-f857f9492837",
@@ -521,11 +607,13 @@
     "year": "2023",
     "journal": "Advanced Science",
     "doi": "https://doi.org/10.1002/advs.202301493",
-    "citations": 6,
+    "citations": 7,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://advanced.onlinelibrary.wiley.com/cms/asset/b8e38db0-1efc-44de-bd36-93c7f17704e1/advs.v10.28.cover.gif",
-    "file_img": "https://advanced.onlinelibrary.wiley.com/cms/asset/b8e38db0-1efc-44de-bd36-93c7f17704e1/advs.v10.28.cover.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Jia‐Yuan Sun, Duc Huy Nguyen, Jia‐Ming Liu, Chia‐Yao Lo, Yuan‐Ron Ma, Yi‐Jia Chen, Jui‐Yun Yi, Jian‐Zhi Huang, Hien Giap, Hai Yen Thi Nguyen, Chun‐Da Liao, Ming‐Yi Lin, Chien‐Chih Lai",
+    "altmetric_id": "10.1002/advs.202301493"
   },
   {
     "id": "31f1bcc1-f442-819b-a39b-c3a3dcbe5e5d",
@@ -536,8 +624,10 @@
     "citations": 3,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/3-s2.0-C20210018009-cov200h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/3-s2.0-C20210018009-cov200h.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Thomasukutty Jose, Jiji Abraham, K.C. Nimitha, Sujit Anil Kadam, S.J. Harikrishnan, Yuan-Ron Ma, Soney C. George, Sabu Thomas",
+    "altmetric_id": "10.1016/b978-0-323-99549-8.00013-3"
   },
   {
     "id": "31f1bcc1-f442-8188-8d75-d0475819ad46",
@@ -549,7 +639,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1557%2Fs43578-023-00926-w/MediaObjects/43578_2023_926_Figa_HTML.png?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/43578?as=webp"
+    "file_img": "",
+    "authors": "Pooja Saini, Manjri Singh, Ranjit Patil, Yuan-Ron Ma, R. P. Tandon, Surinder P. Singh, Ajit K. Mahapatro",
+    "altmetric_id": "10.1557/s43578-023-00926-w"
   },
   {
     "id": "31f1bcc1-f442-81f9-9e31-d626bea504d7",
@@ -557,11 +649,13 @@
     "year": "2022",
     "journal": "Journal of Colloid and Interface Science",
     "doi": "https://doi.org/10.1016/j.jcis.2022.01.015",
-    "citations": 57,
+    "citations": 58,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979722000170-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979722X00027-cov200h.gif"
+    "file_img": "",
+    "authors": "Suraj A. Khalate, Sujit A. Kadam, Yuan-Ron Ma, Sachin B. Kulkarni, Vinayak G. Parale, Umakant M. Patil",
+    "altmetric_id": "10.1016/j.jcis.2022.01.015"
   },
   {
     "id": "31f1bcc1-f442-81d4-8d6d-ea64d46047e2",
@@ -572,8 +666,24 @@
     "citations": 56,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://secure-ecsd.elsevier.com/covers/80/Tango2/large/2352152X.jpg",
-    "file_img": "https://secure-ecsd.elsevier.com/covers/80/Tango2/large/2352152X.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352152X22010398-gr1_lrg.jpg",
+    "file_img": "",
+    "authors": "Sachin S. Pujari, Sujit A. Kadam, Yuan-Ron Ma, Satish B. Jadhav, Sambhaji S. Kumbhar, Shraddha B. Bhosale, Jayavant L. Gunjakar, Chandrakant D. Lokhande, Umakant M. Patil",
+    "altmetric_id": "10.1016/j.est.2022.105037"
+  },
+  {
+    "id": "31f1bcc1-f442-8159-9602-e70f026333c3",
+    "title": "Mechanism of Iron Integration into LiMn1.5Ni0.5O4for the Electrocatalytic Oxygen Evolution Reaction",
+    "year": "2022",
+    "journal": "Energy and Fuels",
+    "doi": "https://doi.org/10.1021/acs.energyfuels.2c02447",
+    "citations": 37,
+    "is_star": "否",
+    "highlight": "📄 一般論文",
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Imtiaz Ahmed, Rathindranath Biswas, Saptarshi Ghosh Dastider, Harjinder Singh, Shouvik Mete, Ranjit A. Patil, Monochura Saha, Ashok Kumar Yadav, Sambhu Nath Jha, Krishnakanta Mondal, Harishchandra Singh, Yuan-Ron Ma, Krishna Kanta Haldar",
+    "altmetric_id": "10.1021/acs.energyfuels.2c02447"
   },
   {
     "id": "31f1bcc1-f442-8178-b927-cae63abe88ae",
@@ -585,19 +695,23 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/9ed93f65-e22f-4812-8ac7-4602769c341f/slct202202504-toc-0001-m.jpg",
-    "file_img": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/5f8c2c49-75bd-4619-8192-92f3d69afcbc/slct202283701-toc-0001-m.jpg"
+    "file_img": "",
+    "authors": "Pravin More, Sujit A. Kadam, Yuan‐Ron Ma, Yan‐Ruei Chen, Nilesh Tarwal, Yuvraj Navale, Amol Salunkhe, Vikas Patil",
+    "altmetric_id": "10.1002/slct.202202504"
   },
   {
-    "id": "31f1bcc1-f442-8159-9602-e70f026333c3",
-    "title": "Mechanism of Iron Integration into LiMn1.5Ni0.5O4for the Electrocatalytic Oxygen Evolution Reaction",
+    "id": "31f1bcc1-f442-818c-b2de-f99bdc9e2e18",
+    "title": "Green synthesis of hybrid papain/Ni3(PO4)2 rods electrocatalyst for enhanced oxygen evolution reaction",
     "year": "2022",
-    "journal": "Energy and Fuels",
-    "doi": "https://doi.org/10.1021/acs.energyfuels.2c02447",
-    "citations": 29,
+    "journal": "New Journal of Chemistry",
+    "doi": "https://doi.org/10.1039/d2nj03700a",
+    "citations": 30,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acs.energyfuels.2c02447/asset/images/medium/ef2c02447_0008.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/enfuem.2022.36.issue-19/asset/18a64f87-5618-64f8-2561-a64f8725618a/enfuem.2022.36.issue-19.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Imtiaz Ahmed, Rathindranath Biswas, Harjinder Singh, Ranjit A. Patil, Rohit Varshney, Debabrata Patra, Yuan-Ron Ma, Krishna Kanta Haldar",
+    "altmetric_id": "10.1039/d2nj03700a"
   },
   {
     "id": "31f1bcc1-f442-81aa-b389-c86729a773bf",
@@ -608,20 +722,10 @@
     "citations": 27,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D2SE00978A&imageInfo.ImageIdentifier.Year=2022",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=SE&imageInfo.ImageIdentifier.IssueId=SE006024"
-  },
-  {
-    "id": "31f1bcc1-f442-818c-b2de-f99bdc9e2e18",
-    "title": "Green synthesis of hybrid papain/Ni3(PO4)2 rods electrocatalyst for enhanced oxygen evolution reaction",
-    "year": "2022",
-    "journal": "New Journal of Chemistry",
-    "doi": "https://doi.org/10.1039/d2nj03700a",
-    "citations": 27,
-    "is_star": "否",
-    "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D2NJ03700A&imageInfo.ImageIdentifier.Year=2022",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NJ&imageInfo.ImageIdentifier.IssueId=NJ046046"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Sachin S. Pujari, Sujit A. Kadam, Yuan-Ron Ma, Satish B. Jadhav, Sambhaji S. Kumbhar, Shraddha B. Bhosale, Vinod V. Patil, Jayavant L. Gunjakar, Chandrakant D. Lokhande, Umakant M. Patil",
+    "altmetric_id": "10.1039/d2se00978a"
   },
   {
     "id": "31f1bcc1-f442-8151-ad99-d5729e632673",
@@ -633,7 +737,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0577907322000521-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0577907322X00038-cov200h.gif"
+    "file_img": "",
+    "authors": "Kaushal H. Parmar, Vishesh Manjunath, Santosh Bimli, Parameshwar R. Chikate, Ranjit A. Patil, Yuan-Ron Ma, Rupesh S. Devan",
+    "altmetric_id": "10.1016/j.cjph.2022.02.014"
   },
   {
     "id": "31f1bcc1-f442-816b-96c7-f440e38013df",
@@ -645,7 +751,9 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S016943322200191X-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X01694332.jpg"
+    "file_img": "",
+    "authors": "Carlo C. Sta. Maria, Ranjit A. Patil, Denny Pratama Hasibuan, Clara Sinta Saragih, Chien-Chi Lai, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.apsusc.2022.152608"
   },
   {
     "id": "31f1bcc1-f442-813f-8070-f495d5629793",
@@ -653,11 +761,13 @@
     "year": "2022",
     "journal": "Journal of Biophotonics",
     "doi": "https://doi.org/10.1002/jbio.202100264",
-    "citations": 12,
+    "citations": 13,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://onlinelibrary.wiley.com/cms/asset/075e9363-6843-4e8b-95ff-c1f1be5970e0/jbio202100264-toc-0001-m.jpg",
-    "file_img": "https://onlinelibrary.wiley.com/cms/asset/f5d40f6d-5739-49c0-ace5-70f4f50e3109/jbio202270003-toc-0001-m.jpg"
+    "file_img": "",
+    "authors": "Wrenit Gem Pearl, Elena V. Perevedentseva, Artashes V. Karmenyan, Vitaly A. Khanadeev, Sheng‐Yun Wu, Yuan‐Ron Ma, Nikolai G. Khlebtsov, Chia‐Liang Cheng",
+    "altmetric_id": "10.1002/jbio.202100264"
   },
   {
     "id": "31f1bcc1-f442-8171-b6fa-fb54e82e0437",
@@ -669,7 +779,9 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2468023022001262-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X24680230.jpg"
+    "file_img": "",
+    "authors": "Fan-Ying Chuang, Denny Pratama Hasibuan, Clara Sinta Saragih, Ranjit A. Patil, Chih-Hung Tsai, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.surfin.2022.101845"
   },
   {
     "id": "31f1bcc1-f442-81e9-b18d-d968f880567b",
@@ -681,7 +793,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Wen-Bin Jian, Chia-Chun Wei, Tung-Han Wu, Jun-Wei Huang, Ben-Li Young, Yu-Liang Lin, Jiun-Tai Chen, Chain-Shu Hsu, Yuan-Ron Ma, Kazuhito Tsukagoshi",
+    "altmetric_id": "10.2139/ssrn.4263827"
   },
   {
     "id": "31f1bcc1-f442-81a8-aa7f-d85a58dcb4ab",
@@ -689,11 +803,13 @@
     "year": "2021",
     "journal": "ACS Applied Nano Materials",
     "doi": "https://doi.org/10.1021/acsanm.1c03238",
-    "citations": 100,
+    "citations": 108,
     "is_star": "否",
     "highlight": "🔥 國際標竿",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acsanm.1c03238/asset/images/medium/an1c03238_0010.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/aanmf6.2021.4.issue-11/asset/183f4d6c-0218-f4d6-4021-3f4d6c402183/aanmf6.2021.4.issue-11.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Imtiaz Ahmed, Rathindranath Biswas, Ranjit A. Patil, Krishna Kamal Halder, Harjinder Singh, Biplab Banerjee, Bhupender Kumar, Yuan-Ron Ma, Krishna Kanta Haldar",
+    "altmetric_id": "10.1021/acsanm.1c03238"
   },
   {
     "id": "31f1bcc1-f442-81b6-90b6-fee8ea51a09a",
@@ -704,8 +820,10 @@
     "citations": 78,
     "is_star": "是",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://www.sciencedirect.com/science/article/abs/pii/S0927024821003482?via%3Dihub",
-    "file_img": "https://ars.els-cdn.com/content/image/X09270248.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0927024821003482-ga1_lrg.jpg",
+    "file_img": "",
+    "authors": "Giang Thi Phan, Duy Van Pham, Ranjit A. Patil, Chih-Hung Tsai, Chien-Chih Lai, Wang-Chi Yeh, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.solmat.2021.111306"
   },
   {
     "id": "31f1bcc1-f442-8148-97a3-c9968c10b968",
@@ -713,23 +831,13 @@
     "year": "2021",
     "journal": "Solar Energy Materials and Solar Cells",
     "doi": "https://doi.org/10.1016/j.solmat.2021.110960",
-    "citations": 67,
+    "citations": 68,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0927024821000040-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0927024821X00025-cov150h.gif"
-  },
-  {
-    "id": "31f1bcc1-f442-819f-af34-dd8a664500d2",
-    "title": "Cobalt doped iron phosphate thin film: An effective catalyst for electrochemical water splitting",
-    "year": "2021",
-    "journal": "Journal of Alloys and Compounds",
-    "doi": "https://doi.org/10.1016/j.jallcom.2021.160914",
-    "citations": 46,
-    "is_star": "否",
-    "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838821023239-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09258388.jpg"
+    "file_img": "",
+    "authors": "Chi-Ming Chang, Ya-Chen Chiang, Ming-Hsiang Cheng, Shiuan-Huei Lin, Wen-Bin Jian, Jiun-Tai Chen, Yen-Ju Cheng, Yuan-Ron Ma, Kazuhito Tsukagoshi",
+    "altmetric_id": "10.1016/j.solmat.2021.110960"
   },
   {
     "id": "31f1bcc1-f442-8186-9e05-ca10348a6fb0",
@@ -737,11 +845,27 @@
     "year": "2021",
     "journal": "Journal of Physical Chemistry C",
     "doi": "https://doi.org/10.1021/acs.jpcc.0c10149",
-    "citations": 45,
+    "citations": 52,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acs.jpcc.0c10149/asset/images/medium/jp0c10149_0012.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/jpccck.2021.125.issue-12/asset/17f9249a-bb17-9249-0bb1-f9249a0bb17f/jpccck.2021.125.issue-12.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rathindranath Biswas, Biplab Banerjee, Monochura Saha, Imtiaz Ahmed, Shouvik Mete, Ranjit A. Patil, Yuan-Ron Ma, Krishna Kanta Haldar",
+    "altmetric_id": "10.1021/acs.jpcc.0c10149"
+  },
+  {
+    "id": "31f1bcc1-f442-819f-af34-dd8a664500d2",
+    "title": "Cobalt doped iron phosphate thin film: An effective catalyst for electrochemical water splitting",
+    "year": "2021",
+    "journal": "Journal of Alloys and Compounds",
+    "doi": "https://doi.org/10.1016/j.jallcom.2021.160914",
+    "citations": 48,
+    "is_star": "否",
+    "highlight": "📄 一般論文",
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838821023239-ga1_lrg.jpg",
+    "file_img": "",
+    "authors": "Suraj A. Khalate, Sujit A. Kadam, Yuan-Ron Ma, Sachin S. Pujari, Umakant M. Patil",
+    "altmetric_id": "10.1016/j.jallcom.2021.160914"
   },
   {
     "id": "31f1bcc1-f442-8156-ae00-f06df3c310ea",
@@ -749,11 +873,27 @@
     "year": "2021",
     "journal": "Inorganic Chemistry Communications",
     "doi": "https://doi.org/10.1016/j.inoche.2021.108981",
-    "citations": 39,
+    "citations": 47,
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1387700321005360-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X13877003.jpg"
+    "file_img": "",
+    "authors": "Sujit Anil Kadam, Susmi Anna Thomas, Yuan-Ron Ma, Lolly Maria Jose, D. Sajan, Arun Aravind",
+    "altmetric_id": "10.1016/j.inoche.2021.108981"
+  },
+  {
+    "id": "31f1bcc1-f442-81da-817b-dd36838d9c08",
+    "title": "Rutile-phase TiO2@carbon core-shell nanowires and their photoactivation in visible light region",
+    "year": "2021",
+    "journal": "Carbon",
+    "doi": "https://doi.org/10.1016/j.carbon.2021.04.101",
+    "citations": 39,
+    "is_star": "是",
+    "highlight": "📄 一般論文",
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0008622321004954-ga1_lrg.jpg",
+    "file_img": "",
+    "authors": "Lokesh Saravanan, Ranjit A. Patil, Pangihutan Gultom, Brajesh Kumar, Arumugam Manikandan, Yen-Pei Fu, Yu-Lun Chueh, Chia-Liang Cheng, Wang-Chi Yeh, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.carbon.2021.04.101"
   },
   {
     "id": "31f1bcc1-f442-814a-88a1-e93327552539",
@@ -765,19 +905,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S187610702100208X-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S1876107021X00065-cov150h.gif"
-  },
-  {
-    "id": "31f1bcc1-f442-81da-817b-dd36838d9c08",
-    "title": "Rutile-phase TiO2@carbon core-shell nanowires and their photoactivation in visible light region",
-    "year": "2021",
-    "journal": "Carbon",
-    "doi": "https://doi.org/10.1016/j.carbon.2021.04.101",
-    "citations": 38,
-    "is_star": "是",
-    "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0008622321004954-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0008622321X00085-cov150h.gif"
+    "file_img": "",
+    "authors": "Madhuri S. Patil, Narasimharao Kitchamsetti, Sameena R. Mulani, Sachin R. Rondiya, Nishad G. Deshpande, Ranjit A. Patil, Russell W. Cross, Nelson Y. Dzade, Kirankumar K. Sharma, Pramod S. Patil, Yuan-Ron Ma, Hyung Koun Cho, Rupesh S. Devan",
+    "altmetric_id": "10.1016/j.jtice.2021.04.032"
   },
   {
     "id": "31f1bcc1-f442-8163-9110-fe1b6803fc8a",
@@ -789,7 +919,9 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/1f467ac1-bd12-40e2-b6fa-c2a4f1e23464/slct202102109-toc-0001-m.jpg",
-    "file_img": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/53d37c6e-5417-4a13-ad5b-6212e4d05892/slct.v6.37.cover.gif"
+    "file_img": "",
+    "authors": "Susmi Anna Thomas, Sujit Anil Kadam, Yuan‐Ron Ma, Arun Aravind",
+    "altmetric_id": "10.1002/slct.202102109"
   },
   {
     "id": "31f1bcc1-f442-81de-b897-dad870f7b493",
@@ -797,11 +929,13 @@
     "year": "2021",
     "journal": "Nanoscale Advances",
     "doi": "https://doi.org/10.1039/d1na00442e",
-    "citations": 34,
+    "citations": 35,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D1NA00442E&imageInfo.ImageIdentifier.Year=2021",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NA&imageInfo.ImageIdentifier.IssueId=NA003019"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Sujit A. Kadam, Giang Thi Phan, Duy Van Pham, Ranjit A. Patil, Chien-Chih Lai, Yan-Ruei Chen, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/d1na00442e"
   },
   {
     "id": "31f1bcc1-f442-81b6-93ef-f43c0d321644",
@@ -812,8 +946,10 @@
     "citations": 29,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10934?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10934?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Sachin S. Pujari, Sujit A. Kadam, Yuan-Ron Ma, Suraj A. Khalate, Pranav K. Katkar, Supriya J. Marje, Umakant M. Patil",
+    "altmetric_id": "10.1007/s10934-020-01000-0"
   },
   {
     "id": "31f1bcc1-f442-8114-a780-ca144a6680ec",
@@ -824,8 +960,10 @@
     "citations": 23,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://advanced.onlinelibrary.wiley.com/cms/asset/aa16d2d1-7ca2-46d0-84bb-5b4b4894f1b9/adma.v33.12.cover.gif",
-    "file_img": "https://advanced.onlinelibrary.wiley.com/cms/asset/aa16d2d1-7ca2-46d0-84bb-5b4b4894f1b9/adma.v33.12.cover.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Duc Huy Nguyen, Jia‐Yuan Sun, Chia‐Yao Lo, Jia‐Ming Liu, Wan‐Shao Tsai, Ming‐Hung Li, Sin‐Jhang Yang, Cheng‐Chia Lin, Shien‐Der Tzeng, Yuan‐Ron Ma, Ming‐Yi Lin, Chien‐Chih Lai",
+    "altmetric_id": "10.1002/adma.202006819"
   },
   {
     "id": "31f1bcc1-f442-811e-8ef6-c92c01c4f690",
@@ -833,11 +971,13 @@
     "year": "2021",
     "journal": "Chemnanomat",
     "doi": "https://doi.org/10.1002/cnma.202000578",
-    "citations": 19,
+    "citations": 20,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://aces.onlinelibrary.wiley.com/cms/asset/1dcbe484-cf2d-4900-867f-5e7f10ae8f35/cnma.v7.2.cover.gif",
-    "file_img": "https://aces.onlinelibrary.wiley.com/cms/asset/1dcbe484-cf2d-4900-867f-5e7f10ae8f35/cnma.v7.2.cover.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rathindranath Biswas, Simranjeet Singh, Imtiaz Ahmed, Ranjit A. Patil, Yuan‐Ron Ma, Krishna Kanta Haldar",
+    "altmetric_id": "10.1002/cnma.202000578"
   },
   {
     "id": "31f1bcc1-f442-81c4-8d0f-ea4528e09be1",
@@ -848,8 +988,10 @@
     "citations": 8,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://www.tandfonline.com/action/showCoverImage?doi=10.1080/utrb20.v064.i05",
-    "file_img": "https://www.tandfonline.com/action/showCoverImage?doi=10.1080/utrb20.v064.i05"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Manoj D. Joshi, Ranjit A. Patil, Yuan-Ron Ma, Rupesh S. Devan, Santosh S. Hosmani",
+    "altmetric_id": "10.1080/10402004.2021.1950884"
   },
   {
     "id": "31f1bcc1-f442-8171-a8a9-fc55028e4abd",
@@ -857,11 +999,13 @@
     "year": "2020",
     "journal": "Journal of Alloys and Compounds",
     "doi": "https://doi.org/10.1016/j.jallcom.2020.155134",
-    "citations": 79,
+    "citations": 84,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838820314973-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09258388.jpg"
+    "file_img": "",
+    "authors": "Narasimharao Kitchamsetti, Yuan-Ron Ma, Parasharam M. Shirage, Rupesh S. Devan",
+    "altmetric_id": "10.1016/j.jallcom.2020.155134"
   },
   {
     "id": "31f1bcc1-f442-81c5-86f0-e08cce23df5e",
@@ -869,11 +1013,13 @@
     "year": "2020",
     "journal": "Journal of Electronic Materials",
     "doi": "https://doi.org/10.1007/s11664-020-08095-w",
-    "citations": 62,
+    "citations": 64,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11664-020-08095-w/MediaObjects/11664_2020_8095_Figa_HTML.png?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/11664?as=webp"
+    "file_img": "",
+    "authors": "Sachin S. Pujari, Sujit A. Kadam, Yuan-Ron Ma, Pranav K. Katkar, Supriya J. Marje, Suraj A. Khalate, Abhishek C. Lokhande, Umakant M. Patil",
+    "altmetric_id": "10.1007/s11664-020-08095-w"
   },
   {
     "id": "31f1bcc1-f442-8110-a9f2-c74c6d000e17",
@@ -881,11 +1027,13 @@
     "year": "2020",
     "journal": "New Journal of Chemistry",
     "doi": "https://doi.org/10.1039/d0nj01596b",
-    "citations": 53,
+    "citations": 58,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D0NJ01596B&imageInfo.ImageIdentifier.Year=2020",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NJ&imageInfo.ImageIdentifier.IssueId=NJ044028"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rathindranath Biswas, Avinava Kundu, Monochura Saha, Vishaldeep Kaur, Biplab Banerjee, Rajendra S. Dhayal, Ranjit A. Patil, Yuan-Ron Ma, Tapasi Sen, Krishna Kanta Haldar",
+    "altmetric_id": "10.1039/d0nj01596b"
   },
   {
     "id": "31f1bcc1-f442-81ff-ac4d-dd417add7afb",
@@ -893,11 +1041,13 @@
     "year": "2020",
     "journal": "Journal of Photochemistry and Photobiology A Chemistry",
     "doi": "https://doi.org/10.1016/j.jphotochem.2020.112682",
-    "citations": 29,
+    "citations": 30,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1010603020304810-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X10106030.jpg"
+    "file_img": "",
+    "authors": "Lopamudra Dash, Rathindranath Biswas, Rakesh Ghosh, Vishaldeep Kaur, Biplab Banerjee, Tapasi Sen, Ranjit A. Patil, Yuan-Ron Ma, Krishna Kanta Haldar",
+    "altmetric_id": "10.1016/j.jphotochem.2020.112682"
   },
   {
     "id": "31f1bcc1-f442-81a8-a5df-e0012813ba5d",
@@ -909,7 +1059,9 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2542529319301543-fx1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2542529320X00034-cov150h.gif"
+    "file_img": "",
+    "authors": "Ranjit A. Patil, Hao-Wei Tu, Ming-Hsing Jen, Jing-Jia Lin, Ching-Cherng Wu, Chun-Chuen Yang, Duy Van Pham, Chih-Hung Tsai, Chien-Chih Lai, Yung Liou, Wen-Bin Jian, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.mtphys.2019.100174"
   },
   {
     "id": "31f1bcc1-f442-8196-aae0-cf4b0145d5e0",
@@ -917,11 +1069,13 @@
     "year": "2020",
     "journal": "Chemistryselect",
     "doi": "https://doi.org/10.1002/slct.202002693",
-    "citations": 15,
+    "citations": 17,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/5da8bd46-b93d-4a77-96d7-b6eb03e91707/slct202002693-toc-0001-m.jpg",
-    "file_img": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/f031846e-f802-4ee2-899b-bb3b8d5ae19f/slct202083401-toc-0001-m.jpg"
+    "file_img": "",
+    "authors": "Samreet Khirid, Rathindranath Biswas, Sangeeta Meena, Ranjit A. Patil, Yuan‐Ron Ma, Rupesh S. Devan, Rajendra S. Dhayal, Krishna Kanta Haldar",
+    "altmetric_id": "10.1002/slct.202002693"
   },
   {
     "id": "31f1bcc1-f442-81b2-8c0a-fe775bd4424d",
@@ -933,7 +1087,9 @@
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/7fb7be9c-db69-4605-a4ff-6abe7da54ad6/slct201900395-toc-0001-m.jpg",
-    "file_img": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/428fe0b4-4b8b-4e5f-9602-1d88d70167d9/slct.v4.21.cover.gif"
+    "file_img": "",
+    "authors": "Narasimharao Kitchamsetti, Ramchandra S. Kalubarme, Parameshwar R. Chikate, Chan‐Jin Park, Yuan‐Ron Ma, Parashram M. Shirage, Rupesh S. Devan",
+    "altmetric_id": "10.1002/slct.201900395"
   },
   {
     "id": "31f1bcc1-f442-81c7-a8dd-f65ad646c13b",
@@ -941,11 +1097,13 @@
     "year": "2019",
     "journal": "Crystengcomm",
     "doi": "https://doi.org/10.1039/c9ce01475f",
-    "citations": 49,
+    "citations": 53,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C9CE01475F&imageInfo.ImageIdentifier.Year=2019",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=CE&imageInfo.ImageIdentifier.IssueId=CE021046"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Narasimharao Kitchamsetti, Parameshwar R. Chikate, Ranjit A. Patil, Yuan-Ron Ma, Parasharam M. Shirage, Rupesh S. Devan",
+    "altmetric_id": "10.1039/c9ce01475f"
   },
   {
     "id": "31f1bcc1-f442-8163-9729-ccc90d348925",
@@ -956,8 +1114,10 @@
     "citations": 40,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR011028",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR011028"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Han-Sheng Chou, Kai-Di Yang, Sheng-Hong Xiao, Ranjit A. Patil, Chien-Chih Lai, Wang-Chi Vincent Yeh, Ching-Hwa Ho, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/c9nr05235f"
   },
   {
     "id": "31f1bcc1-f442-81a6-93ca-f3cc5332bda1",
@@ -965,11 +1125,13 @@
     "year": "2019",
     "journal": "Electrochimica Acta",
     "doi": "https://doi.org/10.1016/j.electacta.2019.06.162",
-    "citations": 36,
+    "citations": 38,
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468619313052-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00134686.jpg"
+    "file_img": "",
+    "authors": "Suraj A. Khalate, Sujit A. Kadam, Yuan-Ron Ma, Sachin S. Pujari, Supriya J. Marje, Pranav K. Katkar, Abhishek C. Lokhande, Umakant M. Patil",
+    "altmetric_id": "10.1016/j.electacta.2019.06.162"
   },
   {
     "id": "31f1bcc1-f442-81d8-a4aa-e245041e0516",
@@ -977,11 +1139,13 @@
     "year": "2019",
     "journal": "Applied Materials Today",
     "doi": "https://doi.org/10.1016/j.apmt.2019.04.012",
-    "citations": 18,
+    "citations": 20,
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352940718305778-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2352940718X00067-cov150h.gif"
+    "file_img": "",
+    "authors": "Giang Thi Phan, Duy Van Pham, Ranjit A. Patil, Chien-Chih Lai, Wang-Chi Yeh, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.apmt.2019.04.012"
   },
   {
     "id": "31f1bcc1-f442-8145-aadc-e62e46a86ada",
@@ -992,8 +1156,24 @@
     "citations": 0,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR011048",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR011048"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Duy Van Pham, Ranjit A. Patil, Jin-Han Lin, Chien-Chih Lai, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/c9nr90265a"
+  },
+  {
+    "id": "31f1bcc1-f442-8117-bb77-f7b722993b97",
+    "title": "Role of cobalt cations in short range antiferromagnetic Co3O4 nanoparticles: A thermal treatment approach to affecting phonon and magnetic properties",
+    "year": "2018",
+    "journal": "Scientific Reports",
+    "doi": "https://doi.org/10.1038/s41598-017-18563-9",
+    "citations": 109,
+    "is_star": "否",
+    "highlight": "⭐ 重點關注",
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Swati R. Gawali, Ashish Chhaganlal Gandhi, Shrikrushna Shivaji Gaikwad, Jayashree Pant, Ting-Shan Chan, Chia-Liang Cheng, Yuan-Ron Ma, Sheng Yun Wu",
+    "altmetric_id": "10.1038/s41598-017-18563-9"
   },
   {
     "id": "31f1bcc1-f442-8125-b0f1-f38263d56962",
@@ -1004,20 +1184,10 @@
     "citations": 108,
     "is_star": "否",
     "highlight": "🔥 國際標竿",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acsomega.8b00334/asset/images/medium/ao-2018-00334a_0021.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/acsodf.2018.3.issue-7/asset/16c76408-6616-7640-d661-c76408d6616c/acsodf.2018.3.issue-7.largecover.jpg"
-  },
-  {
-    "id": "31f1bcc1-f442-8117-bb77-f7b722993b97",
-    "title": "Role of cobalt cations in short range antiferromagnetic Co3O4 nanoparticles: A thermal treatment approach to affecting phonon and magnetic properties",
-    "year": "2018",
-    "journal": "Scientific Reports",
-    "doi": "https://doi.org/10.1038/s41598-017-18563-9",
-    "citations": 98,
-    "is_star": "否",
-    "highlight": "⭐ 重點關注",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Ajay Gupta, Ramen Jamatia, Ranjit A. Patil, Yuan-Ron Ma, Amarta Kumar Pal",
+    "altmetric_id": "10.1021/acsomega.8b00334"
   },
   {
     "id": "31f1bcc1-f442-814f-a8b3-fc8124167849",
@@ -1025,11 +1195,13 @@
     "year": "2018",
     "journal": "Nano Energy",
     "doi": "https://doi.org/10.1016/j.nanoen.2018.02.044",
-    "citations": 82,
+    "citations": 84,
     "is_star": "是",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2211285518301137-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S2211285526X20018-cov150h.gif"
+    "file_img": "",
+    "authors": "Duy Van Pham, Ranjit A. Patil, Chun-Chuen Yang, Wan-Chi Yeh, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.nanoen.2018.02.044"
   },
   {
     "id": "31f1bcc1-f442-8187-aded-c87f366a74f3",
@@ -1037,11 +1209,13 @@
     "year": "2018",
     "journal": "Applied Surface Science",
     "doi": "https://doi.org/10.1016/j.apsusc.2018.08.063",
-    "citations": 38,
+    "citations": 39,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X01694332.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X01694332.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0169433218321780-gr1_lrg.jpg",
+    "file_img": "",
+    "authors": "Sumayya M. Ansari, Bhavesh B. Sinha, Kalpana R. Pai, Suresh K. Bhat, Yuan-Ron Ma, Debasis Sen, Yesh D. Kolekar, C.V. Ramana",
+    "altmetric_id": "10.1016/j.apsusc.2018.08.063"
   },
   {
     "id": "31f1bcc1-f442-81ba-aea9-e9ad2449090c",
@@ -1049,11 +1223,13 @@
     "year": "2018",
     "journal": "ACS Applied Materials and Interfaces",
     "doi": "https://doi.org/10.1021/acsami.7b09447",
-    "citations": 25,
+    "citations": 26,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acsami.7b09447/asset/images/medium/am-2017-09447b_0007.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/aamick.2018.10.issue-7/asset/16442e71-8616-42e7-8861-442e71886164/aamick.2018.10.issue-7.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Pooja Saini, Manjri Singh, Jyoti Thakur, Ranjit Patil, Yuan Ron Ma, Ram P. Tandon, Surinder P. Singh, Ajit K. Mahapatro",
+    "altmetric_id": "10.1021/acsami.7b09447"
   },
   {
     "id": "31f1bcc1-f442-815d-9605-f630eeaf7134",
@@ -1065,7 +1241,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10570-018-1932-y/MediaObjects/10570_2018_1932_Figa_HTML.png?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10570?as=webp"
+    "file_img": "",
+    "authors": "Archana Kumari Sharma, Rupesh S. Devan, Meenu Arora, Rabindra Kumar, Yuan-Ron Ma, J. Nagendra Babu",
+    "altmetric_id": "10.1007/s10570-018-1932-y"
   },
   {
     "id": "31f1bcc1-f442-812b-a8d0-f0fe8cd0e978",
@@ -1076,8 +1254,10 @@
     "citations": 23,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/339?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/339?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "T. S. Bhat, A. V. Shinde, R. S. Devan, A. M. Teli, Y. R. Ma, J. H. Kim, P. S. Patil",
+    "altmetric_id": "10.1007/s00339-017-1441-0"
   },
   {
     "id": "31f1bcc1-f442-816e-9c0a-e1d618fa0722",
@@ -1088,8 +1268,10 @@
     "citations": 22,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C8RA03282C&imageInfo.ImageIdentifier.Year=2018",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=RA&imageInfo.ImageIdentifier.IssueId=RA008038"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Parameshwar R. Chikate, Prashant K. Bankar, Ram J. Choudhary, Yuan-Ron Ma, Shankar I. Patil, Mahendra A. More, Deodatta M. Phase, Parasharam M. Shirage, Rupesh S. Devan",
+    "altmetric_id": "10.1039/c8ra03282c"
   },
   {
     "id": "31f1bcc1-f442-8113-b232-e299b4054e48",
@@ -1097,11 +1279,13 @@
     "year": "2018",
     "journal": "Optik",
     "doi": "https://doi.org/10.1016/j.ijleo.2017.12.017",
-    "citations": 11,
+    "citations": 12,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X00304026.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00304026.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0030402617316455-gr1_lrg.jpg",
+    "file_img": "",
+    "authors": "Gaurav M. Lohar, Swati T. Jadhav, Brahmanand P. Relekar, Ranjit A. Patil, Yuan-Ron Ma, Vijay J. Fulari",
+    "altmetric_id": "10.1016/j.ijleo.2017.12.017"
   },
   {
     "id": "31f1bcc1-f442-817e-9b77-ca4060335004",
@@ -1113,7 +1297,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/3705e2ef-3ccf-467b-ae98-4eb9c6887c9f/slct201801282-toc-0001-m.jpg",
-    "file_img": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/949a2bdb-b634-4c67-82bf-08e509587a0d/slct201882701-toc-0001-m.jpg"
+    "file_img": "",
+    "authors": "Parameshwar R. Chikate, Krishna D. Daware, Dnyaneshwar S. Gavhane, Yuan‐Ron Ma, Ram J. Choudhary, Shankar I. Patil, Mahendra A. More, Deodatta M. Phase, Suresh W. Gosavi, Parasharam M. Shirage, Rupesh S. Devan",
+    "altmetric_id": "10.1002/slct.201801282"
   },
   {
     "id": "31f1bcc1-f442-810c-90a6-c5591fc78e1d",
@@ -1125,7 +1311,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0025540817335778-ga1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00255408.jpg"
+    "file_img": "",
+    "authors": "Chih-Hung Tsai, Yu-Lin Chen, Hsiao-Lung Hsu, Yuan-Ron Ma, Shin Mou",
+    "altmetric_id": "10.1016/j.materresbull.2018.07.017"
   },
   {
     "id": "31f1bcc1-f442-81fe-86c2-ec58b43c1c45",
@@ -1133,11 +1321,13 @@
     "year": "2017",
     "journal": "ACS Omega",
     "doi": "https://doi.org/10.1021/acsomega.7b00345",
-    "citations": 34,
+    "citations": 37,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acsomega.7b00345/asset/images/medium/ao-2017-00345s_0007.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/acsodf.2017.2.issue-6/asset/16c76db4-4416-76db-f441-c76db4f4416c/acsodf.2017.2.issue-6.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Vishal P. Thakare, Vivek V. Antad, Parameshwar R. Chikate, Ruchita T. Khare, Mahendra A. More, Rajendra S. Dhayal, Shankar I. Patil, Yuan-Ron Ma, Lukas Schmidt-Mende",
+    "altmetric_id": "10.1021/acsomega.7b00345"
   },
   {
     "id": "31f1bcc1-f442-81b3-9b28-d0480d4cf467",
@@ -1148,8 +1338,10 @@
     "citations": 22,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C7NJ01208J&imageInfo.ImageIdentifier.Year=2017",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nj&imageInfo.ImageIdentifier.IssueId=NJ050010&imageInfo.ImageIdentifier.Year=2026"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Binoyargha Dam, Ranjit A. Patil, Yuan-Ron Ma, Amarta Kumar Pal",
+    "altmetric_id": "10.1039/c7nj01208j"
   },
   {
     "id": "31f1bcc1-f442-81ae-86a0-e5d76bfe87e0",
@@ -1157,11 +1349,13 @@
     "year": "2016",
     "journal": "Journal of Physical Chemistry C",
     "doi": "https://doi.org/10.1021/acs.jpcc.5b11188",
-    "citations": 182,
+    "citations": 187,
     "is_star": "否",
     "highlight": "🔥 國際標竿",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acs.jpcc.5b11188/asset/images/medium/jp-2015-11188d_0008.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/jpccck.2016.120.issue-10/asset/17bdfa6d-2d17-dfa6-72d1-bdfa6d72d17b/jpccck.2016.120.issue-10.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Sandip G. Kakade, Yuan-Ron Ma, Rupesh S. Devan, Yesh D. Kolekar, C. V. Ramana",
+    "altmetric_id": "10.1021/acs.jpcc.5b11188"
   },
   {
     "id": "31f1bcc1-f442-8116-bec4-f003a3cba3c7",
@@ -1169,11 +1363,13 @@
     "year": "2016",
     "journal": "ACS Applied Materials and Interfaces",
     "doi": "https://doi.org/10.1021/acsami.6b00487",
-    "citations": 94,
+    "citations": 95,
     "is_star": "是",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acsami.6b00487/asset/images/medium/am-2016-004878_0002.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/aamick.2016.8.issue-15/asset/15655aff-b415-55af-3b41-655aff3b4156/aamick.2016.8.issue-15.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Ranjit A. Patil, Cheng-Ping Chang, Rupesh S. Devan, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1021/acsami.6b00487"
   },
   {
     "id": "31f1bcc1-f442-817d-8da4-db321907c290",
@@ -1181,11 +1377,13 @@
     "year": "2016",
     "journal": "Solar Energy Materials and Solar Cells",
     "doi": "https://doi.org/10.1016/j.solmat.2015.12.024",
-    "citations": 87,
+    "citations": 89,
     "is_star": "是",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0927024815006728-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09270248.jpg"
+    "file_img": "",
+    "authors": "Ranjit A. Patil, Rupesh S. Devan, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.solmat.2015.12.024"
   },
   {
     "id": "31f1bcc1-f442-819d-be25-caf7d26a4435",
@@ -1196,8 +1394,10 @@
     "citations": 81,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://sciendo-parsed.s3.eu-central-1.amazonaws.com/64724fba215d2f6c89dc3d5b/cover-image.jpg",
-    "file_img": "https://sciendo-parsed.s3.eu-central-1.amazonaws.com/64724fba215d2f6c89dc3d5b/cover-image.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Vishal V. Burungale, Rupesh S. Devan, Sachin A. Pawar, Namdev S. Harale, Vithoba L. Patil, V. K. Rao, Yuan-Ron Ma, Jo Eun Ae, Jin H. Kim, Pramod S. Patil",
+    "altmetric_id": "10.1515/msp-2016-0001"
   },
   {
     "id": "31f1bcc1-f442-8108-9b0d-f311176be977",
@@ -1205,11 +1405,13 @@
     "year": "2016",
     "journal": "Nanoscale",
     "doi": "https://doi.org/10.1039/c5nr08118a",
-    "citations": 49,
+    "citations": 53,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C5NR08118A&imageInfo.ImageIdentifier.Year=2016",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR008010"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Duy Van Pham, Ranjit A. Patil, Jin-Han Lin, Chien-Chih Lai, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/c5nr08118a"
   },
   {
     "id": "31f1bcc1-f442-813f-a810-ee970e2624d4",
@@ -1217,11 +1419,13 @@
     "year": "2016",
     "journal": "Nanoscale",
     "doi": "https://doi.org/10.1039/c5nr08417b",
-    "citations": 41,
+    "citations": 46,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C5NR08417B&imageInfo.ImageIdentifier.Year=2016",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR008006"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Ranjit A. Patil, Mao-Kuo Wei, P.-H. Yeh, Jyun-Bo Liang, Wan-Ting Gao, Jin-Han Lin, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/c5nr08417b"
   },
   {
     "id": "31f1bcc1-f442-81db-aff8-df437e1bc18c",
@@ -1229,11 +1433,13 @@
     "year": "2016",
     "journal": "Rsc Advances",
     "doi": "https://doi.org/10.1039/c6ra11348f",
-    "citations": 22,
+    "citations": 35,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C6RA11348F&imageInfo.ImageIdentifier.Year=2016",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=RA&imageInfo.ImageIdentifier.IssueId=RA006101"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Yuan-Ron Ma, Ranjit A. Patil, Schmidt-Mende Lukas",
+    "altmetric_id": "10.1039/c6ra11348f"
   },
   {
     "id": "31f1bcc1-f442-81dc-bac6-c966becd1450",
@@ -1241,11 +1447,13 @@
     "year": "2016",
     "journal": "Rsc Advances",
     "doi": "https://doi.org/10.1039/c6ra20747b",
-    "citations": 21,
+    "citations": 22,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C6RA20747B&imageInfo.ImageIdentifier.Year=2016",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=RA&imageInfo.ImageIdentifier.IssueId=RA006101"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Yuan-Ron Ma, Mahendra A. More, Ruchita T. Khare, Vivek V. Antad, Ranjit A. Patil, Vishal P. Thakare, Rajendra S. Dhayal, Lukas Schmidt-Mende",
+    "altmetric_id": "10.1039/c6ra20747b"
   },
   {
     "id": "31f1bcc1-f442-81e8-bd40-f99ffa47ecca",
@@ -1256,8 +1464,10 @@
     "citations": 21,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C6NR02531E&imageInfo.ImageIdentifier.Year=2016",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=NR&imageInfo.ImageIdentifier.IssueId=NR008026"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Ranjit A. Patil, Chiung-Wu Su, Chin-Jung Chuang, Chien-Chih Lai, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/c6nr02531e"
   },
   {
     "id": "31f1bcc1-f442-81f1-a752-f552a34c7127",
@@ -1269,7 +1479,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0025540815302683-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00255408.jpg"
+    "file_img": "",
+    "authors": "Amit Pawbake, Azam Mayabadi, Ravindra Waykar, Rupali Kulkarni, Ashok Jadhavar, Vaishali Waman, Jayesh Parmar, Somnath Bhattacharyya, Yuan‐Ron Ma, Rupesh Devan, Habib Pathan, Sandesh Jadkar",
+    "altmetric_id": "10.1016/j.materresbull.2015.12.012"
   },
   {
     "id": "31f1bcc1-f442-818b-aae8-f3495d4f9c7c",
@@ -1280,8 +1492,10 @@
     "citations": 17,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10854?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10854?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "T. S. Bhat, S. A. Vanalakar, R. S. Devan, S. S. Mali, S. A. Pawar, Y. R. Ma, C. K. Hong, J. H. Kim, P. S. Patil",
+    "altmetric_id": "10.1007/s10854-016-4386-8"
   },
   {
     "id": "31f1bcc1-f442-814a-941f-ebfe26a38ab9",
@@ -1293,7 +1507,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Chien-Chih Lai, Chia-Yao Lo, Duc Huy Nguyen, Jian-Zhi Huang, Wan-Shao Tsai, Yuan-Ron Ma",
+    "altmetric_id": "10.1364/oe.24.020089"
   },
   {
     "id": "31f1bcc1-f442-8132-b9ce-c31c3212ceeb",
@@ -1305,7 +1521,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/920e3c40-26b5-460d-b494-08b212a53def/slct201600751-toc-0001-m.jpg",
-    "file_img": "https://chemistry-europe.onlinelibrary.wiley.com/cms/asset/9102cf44-3271-4fe7-a725-982963029a84/slct201601454-toc-0001-m.jpg"
+    "file_img": "",
+    "authors": "Ramen Jamatia, Ajay Gupta, Mrityunjoy Mahato, Ranjit A. Patil, Yuan‐Ron Ma, Amarta K. Pal",
+    "altmetric_id": "10.1002/slct.201600751"
   },
   {
     "id": "31f1bcc1-f442-81da-b837-fbba363bb26a",
@@ -1316,8 +1534,10 @@
     "citations": 7,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/acsomega.6b00146/asset/images/medium/ao-2016-001465_0007.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/acsodf.2016.1.issue-4/asset/16c72b2b-4516-72b2-2451-c72b2b24516c/acsodf.2016.1.issue-4.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Chien-Chih Lai, Chia-Yao Lo, Tsung-Hsun Hsieh, Wan-Shao Tsai, Duc Huy Nguyen, Yuan-Ron Ma",
+    "altmetric_id": "10.1021/acsomega.6b00146"
   },
   {
     "id": "31f1bcc1-f442-81c6-8af4-c3d523892daf",
@@ -1329,7 +1549,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Chin-Jung Chuang, Cheng-Der Liu, Ranjit A. Patil, Chi-Chung Wu, Yao-Chih Chang, Chih-Wen Peng, Ting-Kwuan Chao, Je-Wen Liou, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1038/srep38051"
   },
   {
     "id": "31f1bcc1-f442-8177-b9a4-cf7bf984269c",
@@ -1340,8 +1562,10 @@
     "citations": 1,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/apl/apl_cover-511058838.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/apl/apl_cover-511058838.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Po-Hsun Shih, Chia-Liang Cheng, Yuan-Ron Ma, Sheng Yun Wu",
+    "altmetric_id": "10.1063/1.4943789"
   },
   {
     "id": "31f1bcc1-f442-81a5-adbc-fa7d266de13d",
@@ -1353,7 +1577,9 @@
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979715300655-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0021979715X00166-cov150h.gif"
+    "file_img": "",
+    "authors": "G.M. Lohar, S.T. Jadhav, M.V. Takale, R.A. Patil, Y.R. Ma, M.C. Rath, V.J. Fulari",
+    "altmetric_id": "10.1016/j.jcis.2015.07.046"
   },
   {
     "id": "31f1bcc1-f442-81fb-8fc1-c829617b5ed5",
@@ -1364,8 +1590,10 @@
     "citations": 40,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0169433214X00371-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0169433214X00371-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0169433214026269-gr1.jpg",
+    "file_img": "",
+    "authors": "Rahul B. Patil, Aviraj A. Jatratkar, Rupesh S. Devan, Yuan-Ron Ma, R.K. Puri, Vijaya Puri, J.B. Yadav",
+    "altmetric_id": "10.1016/j.apsusc.2014.11.128"
   },
   {
     "id": "31f1bcc1-f442-817f-ba9a-e86179282642",
@@ -1376,8 +1604,10 @@
     "citations": 36,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/11671?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/11671?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Jhong-Yi Ji, Po-Hsun Shih, Ting-Shan Chan, Yuan-Ron Ma, Sheng Yun Wu",
+    "altmetric_id": "10.1186/s11671-015-0925-0"
   },
   {
     "id": "31f1bcc1-f442-8140-b411-cf3a720f80fc",
@@ -1389,7 +1619,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Ching-Hwa Ho, Yi-Ming Kuo, Ching-Hsiang Chan, Yuan-Ron Ma",
+    "altmetric_id": "10.1038/srep15856"
   },
   {
     "id": "31f1bcc1-f442-8127-9cd8-d0fcd2c186d9",
@@ -1400,8 +1632,10 @@
     "citations": 27,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10854?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10854?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Sachin A. Pawar, D. S. Patil, U. T. Pawar, R. S. Devan, M. M. Karanjkar, Y. R. Ma, S. W. Shin, J. H. Kim, P. S. Patil",
+    "altmetric_id": "10.1007/s10854-015-2729-5"
   },
   {
     "id": "31f1bcc1-f442-8106-a77f-c1e30aef8cbf",
@@ -1412,8 +1646,10 @@
     "citations": 27,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10854?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10854?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Gaurav M. Lohar, Haridas D. Dhaygude, Ranjit A. Patil, Yuan-Ron Ma, Vijay J. Fulari",
+    "altmetric_id": "10.1007/s10854-015-3572-4"
   },
   {
     "id": "31f1bcc1-f442-8175-8709-de1e3925d6d8",
@@ -1425,7 +1661,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838815303066-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838815X00296-cov150h.gif"
+    "file_img": "",
+    "authors": "Dipali S. Patil, S.A. Pawar, S.K. Patil, P.P. Salavi, S.S. Kolekar, R.S. Devan, Y.R. Ma, J.H. Kim, J.C. Shin, P.S. Patil",
+    "altmetric_id": "10.1016/j.jallcom.2015.06.190"
   },
   {
     "id": "31f1bcc1-f442-81c3-a87f-dd27fbe8dcb8",
@@ -1437,7 +1675,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S092583881530904X-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0925838815X00296-cov150h.gif"
+    "file_img": "",
+    "authors": "G.M. Lohar, S.T. Jadhav, H.D. Dhaygude, M.V. Takale, R.A. Patil, Y.R. Ma, M.C. Rath, V.J. Fulari",
+    "altmetric_id": "10.1016/j.jallcom.2015.08.208"
   },
   {
     "id": "31f1bcc1-f442-81ec-8a6d-cb5503177aa7",
@@ -1448,8 +1688,10 @@
     "citations": 0,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://onlinelibrary.wiley.com/cms/asset/4f6b136f-5747-4be7-b96c-0d21f20fd4b7/jona.v2015.1.cover.gif",
-    "file_img": "https://onlinelibrary.wiley.com/cms/asset/4f6b136f-5747-4be7-b96c-0d21f20fd4b7/jona.v2015.1.cover.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Yuan-Ron Ma, Jin-Hyeok Kim, Raghu N. Bhattacharya, Kartik C. Ghosh",
+    "altmetric_id": "10.1155/2015/131965"
   },
   {
     "id": "31f1bcc1-f442-81cf-a0cb-c4a673df689a",
@@ -1461,7 +1703,9 @@
     "is_star": "是",
     "highlight": "⭐ 重點關注",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Jin-Han Lin, Ranjit A. Patil, Rupesh S. Devan, Zhe-An Liu, Yi-Ping Wang, Ching-Hwa Ho, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1038/srep06967"
   },
   {
     "id": "31f1bcc1-f442-810f-890d-d2d9c0ff1761",
@@ -1472,8 +1716,10 @@
     "citations": 64,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468613X00283-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468613X00283-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468613024171-gr1.jpg",
+    "file_img": "",
+    "authors": "Sachin A. Pawar, R.S. Devan, D.S. Patil, V.V. Burungale, T.S. Bhat, S.S. Mali, S.W. Shin, J.E. Ae, C.K. Hong, Y.R. Ma, J.H. Kim, P.S. Patil",
+    "altmetric_id": "10.1016/j.electacta.2013.11.182"
   },
   {
     "id": "31f1bcc1-f442-814b-b8ef-ce0ec4c10aae",
@@ -1484,8 +1730,10 @@
     "citations": 54,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://ars.els-cdn.com/content/image/X15726657.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X15726657.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1572665714001544-gr1.jpg",
+    "file_img": "",
+    "authors": "Dipali S. Patil, S.A. Pawar, R.S. Devan, S.S. Mali, M.G. Gang, Y.R. Ma, C.K. Hong, J.H. Kim, P.S. Patil",
+    "altmetric_id": "10.1016/j.jelechem.2014.04.006"
   },
   {
     "id": "31f1bcc1-f442-8142-bfd1-c6c0d3ded674",
@@ -1496,8 +1744,10 @@
     "citations": 40,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C4TC00566J&imageInfo.ImageIdentifier.Year=2014",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TC&imageInfo.ImageIdentifier.IssueId=TC002035"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Shrikrushna Shivaji Gaikwad, Ashish Chhaganlal Gandhi, Swarada D. Pandit, Jayashree Pant, Ting-Shan Chan, Chia-Liang Cheng, Yuan-Ron Ma, Sheng Yun Wu",
+    "altmetric_id": "10.1039/c4tc00566j"
   },
   {
     "id": "31f1bcc1-f442-81b3-b8d9-e4126a5b2dd8",
@@ -1508,8 +1758,10 @@
     "citations": 32,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0167577X13X00230-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0167577X13X00230-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0167577X13016613-gr1.jpg",
+    "file_img": "",
+    "authors": "Dipali S. Patil, Sachin A. Pawar, Rupesh S. Devan, Yuan Ron Ma, Woo Ri Bae, Jin Hyeok Kim, Pramod S. Patil",
+    "altmetric_id": "10.1016/j.matlet.2013.11.129"
   },
   {
     "id": "31f1bcc1-f442-8199-82d1-d453957c33c7",
@@ -1520,8 +1772,10 @@
     "citations": 29,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w120/springer-static/cover-hires/journal/10854?as=webp",
-    "file_img": "https://media.springernature.com/w120/springer-static/cover-hires/journal/10854?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "T. S. Bhat, R. S. Devan, S. S. Mali, A. S. Kamble, S. A. Pawar, I. Y. Kim, Y. R. Ma, C. K. Hong, J. H. Kim, P. S. Patil",
+    "altmetric_id": "10.1007/s10854-014-2194-6"
   },
   {
     "id": "31f1bcc1-f442-813e-8ff3-f26827bf8f45",
@@ -1532,8 +1786,10 @@
     "citations": 23,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TC&imageInfo.ImageIdentifier.IssueId=TC002041",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TC&imageInfo.ImageIdentifier.IssueId=TC002041"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Jin-Han Lin, Ranjit A. Patil, Ming-Ann Wu, Lian-Guang Yu, Ken-Da Liu, Wan-Ting Gao, Rupesh S. Devan, Ching-Hwa Ho, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/c4tc01347f"
   },
   {
     "id": "31f1bcc1-f442-8189-9a00-eae2e13c1368",
@@ -1541,11 +1797,13 @@
     "year": "2014",
     "journal": "Nanoscale Research Letters",
     "doi": "https://doi.org/10.1186/1556-276x-9-682",
-    "citations": 19,
+    "citations": 20,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/11671?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/11671?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Ing-Song Yu, Chun-Pu Chang, Chung-Pei Yang, Chun-Ting Lin, Yuan-Ron Ma, Chun-Chi Chen",
+    "altmetric_id": "10.1186/1556-276x-9-682"
   },
   {
     "id": "31f1bcc1-f442-81ec-bfce-e36271adfe06",
@@ -1557,7 +1815,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468614020520-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00134686.jpg"
+    "file_img": "",
+    "authors": "Sachin A. Pawar, Dipali S. Patil, Sandip K. Patil, Deepak V. Awale, Rupesh S. Devan, Yuan-Ron Ma, Sanjay S. Kolekar, Jin-Hyeok Kim, Pramod S. Patil",
+    "altmetric_id": "10.1016/j.electacta.2014.10.047"
   },
   {
     "id": "31f1bcc1-f442-8174-b978-debe280e0bb0",
@@ -1568,8 +1828,10 @@
     "citations": 15,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/am503330m/asset/images/medium/am-2014-03330m_0005.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/aamick.2014.6.issue-16/asset/158cf51b-4015-cf51-8401-8cf51b840158/aamick.2014.6.issue-16.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Chien-Chih Lai, Wan-Ting Gao, Duc Huy Nguyen, Yuan-Ron Ma, Nai-Chia Cheng, Shih-Chang Wang, Jeng-Wei Tjiu, Chun-Ming Huang",
+    "altmetric_id": "10.1021/am503330m"
   },
   {
     "id": "31f1bcc1-f442-8167-b32c-c6bcc8137a59",
@@ -1580,8 +1842,10 @@
     "citations": 154,
     "is_star": "否",
     "highlight": "🔥 國際標竿",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C3TC30378K&imageInfo.ImageIdentifier.Year=2013",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TC&imageInfo.ImageIdentifier.IssueId=TC001023"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Dhanaji S. Dalavi, Rupesh S. Devan, Ranjit A. Patil, Raghunath S. Patil, Yuan-Ron Ma, Shivaji B. Sadale, InYoung Kim, Jin-Hyeok Kim, Pramod S. Patil",
+    "altmetric_id": "10.1039/c3tc30378k"
   },
   {
     "id": "31f1bcc1-f442-816e-b931-d4336081c38e",
@@ -1592,8 +1856,10 @@
     "citations": 110,
     "is_star": "是",
     "highlight": "🔥 國際標竿",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0927024813X00030-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0927024813X00030-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S092702481300007X-gr1.jpg",
+    "file_img": "",
+    "authors": "Ranjit A. Patil, Rupesh S. Devan, Jin-Han Lin, Yuan-Ron Ma, Pramod S. Patil, Yung Liou",
+    "altmetric_id": "10.1016/j.solmat.2013.01.003"
   },
   {
     "id": "31f1bcc1-f442-8196-8a47-edddd6247aeb",
@@ -1604,8 +1870,10 @@
     "citations": 100,
     "is_star": "否",
     "highlight": "🔥 國際標竿",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/jp4029479/asset/images/medium/jp-2013-029479_0011.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/jpccck.2013.117.issue-36/asset/153d3245-0015-d324-9001-3d3245900153/jpccck.2013.117.issue-36.largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Ashish Chhaganlal Gandhi, Jayashree Pant, Swarada D. Pandit, Sunanda K. Dalimbkar, Ting-Shan Chan, Chia-Ling Cheng, Yuan-Ron Ma, Sheng Yun Wu",
+    "altmetric_id": "10.1021/jp4029479"
   },
   {
     "id": "31f1bcc1-f442-81b3-afb7-f66f35653bf8",
@@ -1617,7 +1885,9 @@
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0167577X12012281-fx1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0167577X12X00211-cov150h.gif"
+    "file_img": "",
+    "authors": "Dhanaji S. Dalavi, Rupesh S. Devan, Raghunath S. Patil, Yuan-Ron Ma, Pramod S. Patil",
+    "altmetric_id": "10.1016/j.matlet.2012.08.108"
   },
   {
     "id": "31f1bcc1-f442-81f4-a713-cf40d934b87b",
@@ -1628,8 +1898,10 @@
     "citations": 87,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468613X00167-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468613X00167-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468613009262-gr1.jpg",
+    "file_img": "",
+    "authors": "Dipali S. Patil, Sachin A. Pawar, Rupesh S. Devan, Myeng Gil Gang, Yuon-Ron Ma, Jin Hyeok Kim, Pramod S. Patil",
+    "altmetric_id": "10.1016/j.electacta.2013.05.022"
   },
   {
     "id": "31f1bcc1-f442-81a3-aaed-c6dda3dc07c9",
@@ -1640,8 +1912,10 @@
     "citations": 81,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TA&imageInfo.ImageIdentifier.IssueId=TA001004",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=TA&imageInfo.ImageIdentifier.IssueId=TA001004"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Dhanaji S. Dalavi, Rupesh S. Devan, Raghunath S. Patil, Yuan-Ron Ma, Myeong-Gil Kang, Jin-Hyeok Kim, Pramod S. Patil",
+    "altmetric_id": "10.1039/c2ta00842d"
   },
   {
     "id": "31f1bcc1-f442-8118-8d7c-eb3fd85817d9",
@@ -1649,11 +1923,13 @@
     "year": "2013",
     "journal": "Sensors and Actuators A Physical",
     "doi": "https://doi.org/10.1016/j.sna.2013.05.003",
-    "citations": 80,
+    "citations": 81,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://ars.els-cdn.com/content/image/X09244247.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09244247.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0924424713002070-gr1.jpg",
+    "file_img": "",
+    "authors": "N.L. Tarwal, A.V. Rajgure, A.I. Inamdar, R.S. Devan, I.Y. Kim, S.S. Suryavanshi, Y.R. Ma, J.H. Kim, P.S. Patil",
+    "altmetric_id": "10.1016/j.sna.2013.05.003"
   },
   {
     "id": "31f1bcc1-f442-8129-ba20-f2ac1743a7c7",
@@ -1664,8 +1940,10 @@
     "citations": 61,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468612019767-fx1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468612X00306-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468612019767-gr1.jpg",
+    "file_img": "",
+    "authors": "Sawanta S. Mali, Rupesh S. Devan, Yuan-Ron Ma, Chirayath A. Betty, Popatrao N. Bhosale, Rajendra P. Panmand, Bharat B. Kale, Sandesh R. Jadkar, Pramod S. Patil, Jin-Hyeok Kim, Chang Kook Hong",
+    "altmetric_id": "10.1016/j.electacta.2012.12.017"
   },
   {
     "id": "31f1bcc1-f442-8157-9169-ee1e68d3b184",
@@ -1676,8 +1954,10 @@
     "citations": 45,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468613X0009X-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468613X0009X-cov150h.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Sachin A. Pawar, Rupesh S. Devan, Dipali S. Patil, Annasaheb V. Moholkar, Myeng Gil Gang, Yuan-Ron Ma, Jin Hyeok Kim, Pramod S. Patil",
+    "altmetric_id": "10.1016/j.electacta.2013.03.016"
   },
   {
     "id": "31f1bcc1-f442-81d5-bb05-efcbd8b896d3",
@@ -1689,7 +1969,9 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Ranjit A. Patil, Rupesh S. Devan, Jin-Han Lin, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1038/srep03070"
   },
   {
     "id": "31f1bcc1-f442-81b2-bfda-db81ef1b54bf",
@@ -1697,11 +1979,13 @@
     "year": "2013",
     "journal": "Journal of Nanoscience and Nanotechnology",
     "doi": "https://doi.org/10.1166/jnn.2013.6088",
-    "citations": 15,
+    "citations": 18,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://www.ingentaconnect.com/images/journal-logos/asp/jnn.gif",
-    "file_img": "https://www.ingentaconnect.com/images/journal-logos/asp/jnn.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Ching-Ling Lin, Jin-Han Lin, Teng-Kai Wen, Ranjit A. Patil, Yuan-Ron Ma",
+    "altmetric_id": "10.1166/jnn.2013.6088"
   },
   {
     "id": "31f1bcc1-f442-81f6-9b3c-c672d7005247",
@@ -1712,8 +1996,10 @@
     "citations": 11,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10934?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10934?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "V. G. Parale, D. B. Mahadik, M. S. Kavale, A. Venkateswara Rao, Ranjit A. Patil, Yuan-Ron Ma, Steven Mullens, R. S. Vhatkar",
+    "altmetric_id": "10.1007/s10934-012-9629-3"
   },
   {
     "id": "31f1bcc1-f442-8141-8c5a-e69675e119d4",
@@ -1724,8 +2010,10 @@
     "citations": 10,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/apl/apl_cover-511058838.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/apl/apl_cover-511058838.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Jin-Han Lin, Hsien-Che Chiu, Yu-Rong Lin, Teng-Kai Wen, Ranjit A. Patil, Rupesh S. Devan, Chia-Hao Chen, Hung-Wei Shiu, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1063/1.4776696"
   },
   {
     "id": "31f1bcc1-f442-81d2-8e20-d9b3731e8312",
@@ -1736,8 +2024,10 @@
     "citations": 2,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://www.ingentaconnect.com/images/journal-logos/asp/jnn.gif",
-    "file_img": "https://www.ingentaconnect.com/images/journal-logos/asp/jnn.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Jin-Han Lin, Yu-Rong Lin, Teng-Kai Wen, Rupesh S. Devan, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1166/jnn.2013.6094"
   },
   {
     "id": "31f1bcc1-f442-81d4-85f3-f399aa08ebd1",
@@ -1748,8 +2038,10 @@
     "citations": 792,
     "is_star": "是",
     "highlight": "🔥 國際標竿",
-    "cover_url": "https://advanced.onlinelibrary.wiley.com/cms/asset/06e41a15-f1fd-440b-a574-6875dd9f9307/adfm.v22.16.cover.gif",
-    "file_img": "https://advanced.onlinelibrary.wiley.com/cms/asset/06e41a15-f1fd-440b-a574-6875dd9f9307/adfm.v22.16.cover.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Ranjit A. Patil, Jin‐Han Lin, Yuan‐Ron Ma",
+    "altmetric_id": "10.1002/adfm.201201008"
   },
   {
     "id": "31f1bcc1-f442-8113-a601-ce318e3af7ee",
@@ -1760,8 +2052,10 @@
     "citations": 142,
     "is_star": "否",
     "highlight": "🔥 國際標竿",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C2CP41757J&imageInfo.ImageIdentifier.Year=2012",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=CP&imageInfo.ImageIdentifier.IssueId=CP014034"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Dipali S. Patil, J. S. Shaikh, S. A. Pawar, R. S. Devan, Y. R. Ma, A. V. Moholkar, J. H. Kim, R. S. Kalubarme, C. J. Park, P. S. Patil",
+    "altmetric_id": "10.1039/c2cp41757j"
   },
   {
     "id": "31f1bcc1-f442-81b0-94a2-fd1651a2675d",
@@ -1773,7 +2067,9 @@
     "is_star": "否",
     "highlight": "🔥 國際標竿",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468612001193-fx1.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00134686.jpg"
+    "file_img": "",
+    "authors": "Sawanta S. Mali, Bharmana M. Patil, Chirayath A. Betty, Popatrao N. Bhosale, Young Woo Oh, Sandesh R. Jadkar, Rupesh S. Devan, Yuan-Ron Ma, Pramod S. Patil",
+    "altmetric_id": "10.1016/j.electacta.2012.01.079"
   },
   {
     "id": "31f1bcc1-f442-8186-89d9-fcef5f755316",
@@ -1784,8 +2080,10 @@
     "citations": 86,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C2DT12464E&imageInfo.ImageIdentifier.Year=2012",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=DT&imageInfo.ImageIdentifier.IssueId=DT041020"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Sawanta S. Mali, Shital K. Desai, Smita S. Kalagi, Chirayath A. Betty, Popatrao N. Bhosale, Rupesh S. Devan, Yuan-Ron R. Ma, Pramod S. Patil",
+    "altmetric_id": "10.1039/c2dt12464e"
   },
   {
     "id": "31f1bcc1-f442-8186-a89c-fe272a7d0a08",
@@ -1793,11 +2091,13 @@
     "year": "2012",
     "journal": "Crystengcomm",
     "doi": "https://doi.org/10.1039/c2ce06476f",
-    "citations": 72,
+    "citations": 73,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C2CE06476F&imageInfo.ImageIdentifier.Year=2012",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=CE&imageInfo.ImageIdentifier.IssueId=CE014006"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Sawanta S. Mali, Chirayath A. Betty, Popatrao N. Bhosale, Rupesh S. Devan, Yuan-Ron Ma, Sanjay S. Kolekar, Pramod S. Patil",
+    "altmetric_id": "10.1039/c2ce06476f"
   },
   {
     "id": "31f1bcc1-f442-81e4-ba40-fca9ed980bff",
@@ -1808,8 +2108,10 @@
     "citations": 55,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468612X00124-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468612X00124-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468612004872-gr1.jpg",
+    "file_img": "",
+    "authors": "N.L. Tarwal, R.S. Devan, Y.R. Ma, R.S. Patil, M.M. Karanjkar, P.S. Patil",
+    "altmetric_id": "10.1016/j.electacta.2012.03.135"
   },
   {
     "id": "31f1bcc1-f442-8194-be40-ddd728b2049d",
@@ -1820,8 +2122,10 @@
     "citations": 33,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C2RA00972B&imageInfo.ImageIdentifier.Year=2012",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=RA&imageInfo.ImageIdentifier.IssueId=RA002005"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Jin-Han Lin, Yong-Jie Huang, Yan-Ping Su, Che-An Liu, Rupesh S. Devan, Ching-Hwa Ho, Yi-Ping Wang, Hung-Wen Lee, Chun-Ming Chang, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/c2ra00972b"
   },
   {
     "id": "31f1bcc1-f442-81b9-a91a-f04d5b3da629",
@@ -1833,7 +2137,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1387380611001989-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S1387380612X00034-cov150h.gif"
+    "file_img": "",
+    "authors": "Cheng-Tung Chen, P. Muralidhar Reddy, Yuan-Ron Ma, Yen-Peng Ho",
+    "altmetric_id": "10.1016/j.ijms.2011.05.014"
   },
   {
     "id": "31f1bcc1-f442-8103-ad5a-dbdd0430fef1",
@@ -1841,11 +2147,13 @@
     "year": "2012",
     "journal": "Nanoscale Research Letters",
     "doi": "https://doi.org/10.1186/1556-276x-7-354",
-    "citations": 5,
+    "citations": 9,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w120/springer-static/cover-hires/journal/11671?as=webp",
-    "file_img": "https://media.springernature.com/w120/springer-static/cover-hires/journal/11671?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Po-Hsun Shih, Hsuan-Jung Hung, Yuan-Ron Ma, Sheng-Yun Wu",
+    "altmetric_id": "10.1186/1556-276x-7-354"
   },
   {
     "id": "31f1bcc1-f442-815f-9412-c72c112d6593",
@@ -1853,11 +2161,13 @@
     "year": "2011",
     "journal": "Electrochimica Acta",
     "doi": "https://doi.org/10.1016/j.electacta.2010.11.046",
-    "citations": 162,
+    "citations": 166,
     "is_star": "否",
     "highlight": "🔥 國際標竿",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468611X00026-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468611X00026-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0013468610015586-fx1.jpg",
+    "file_img": "",
+    "authors": "J.S. Shaikh, R.C. Pawar, R.S. Devan, Y.R. Ma, P.P. Salvi, S.S. Kolekar, P.S. Patil",
+    "altmetric_id": "10.1016/j.electacta.2010.11.046"
   },
   {
     "id": "31f1bcc1-f442-8147-9834-f129318a467a",
@@ -1868,8 +2178,10 @@
     "citations": 92,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0169433211X00223-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0169433211X00223-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0169433211016382-gr1.jpg",
+    "file_img": "",
+    "authors": "S.B. Pawar, J.S. Shaikh, R.S. Devan, Y.R. Ma, D. Haranath, P.N. Bhosale, P.S. Patil",
+    "altmetric_id": "10.1016/j.apsusc.2011.10.069"
   },
   {
     "id": "31f1bcc1-f442-81d5-ad2e-fb735ff8e072",
@@ -1881,7 +2193,9 @@
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "D. S. Patil, J. S. Shaikh, D. S. Dalavi, M. M. Karanjkar, R. S. Devan, Y. R. Ma, P. S. Patil",
+    "altmetric_id": "10.1149/1.3561428"
   },
   {
     "id": "31f1bcc1-f442-813e-80fd-f741b2ece4cd",
@@ -1892,8 +2206,10 @@
     "citations": 84,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://media.springernature.com/w120/springer-static/cover-hires/journal/11671?as=webp",
-    "file_img": "https://media.springernature.com/w120/springer-static/cover-hires/journal/11671?as=webp"
+    "cover_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6964/3211999/792f19b3e93a/1556-276X-6-485-1.jpg",
+    "file_img": "",
+    "authors": "Ashish Chhaganlal Gandhi, Chih-Yeh Huang, Chun Chuen Yang, Ting Shan Chan, Chia-Liang Cheng, Yuan-Ron Ma, Sheng Yun Wu",
+    "altmetric_id": "10.1186/1556-276x-6-485"
   },
   {
     "id": "31f1bcc1-f442-819f-9137-fb9303323a79",
@@ -1904,8 +2220,10 @@
     "citations": 56,
     "is_star": "是",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C1CP21283D&imageInfo.ImageIdentifier.Year=2011",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=CP&imageInfo.ImageIdentifier.IssueId=CP013029"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Ching-Ling Lin, Shun-Yu Gao, Chia-Liang Cheng, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/c1cp21283d"
   },
   {
     "id": "31f1bcc1-f442-81c9-9752-c0fdac721693",
@@ -1916,8 +2234,10 @@
     "citations": 53,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/apl/apl_cover-511058838.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/apl/apl_cover-511058838.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Shun-Yu Gao, Wei-Der Ho, Jin-Han Lin, Yuan-Ron Ma, Pramod S. Patil, Yung Liou",
+    "altmetric_id": "10.1063/1.3568896"
   },
   {
     "id": "31f1bcc1-f442-818a-9918-f433d24478ef",
@@ -1928,8 +2248,10 @@
     "citations": 29,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C1NR10694E&imageInfo.ImageIdentifier.Year=2011",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=nr&imageInfo.ImageIdentifier.IssueId=NR018012&imageInfo.ImageIdentifier.Year=2026"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Jin-Han Lin, Yong-Jie Huang, Chun-Chuen Yang, Sheng Yun Wu, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1039/c1nr10694e"
   },
   {
     "id": "31f1bcc1-f442-81c0-9d05-f6967dca4b76",
@@ -1940,8 +2262,10 @@
     "citations": 19,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=JM&imageInfo.ImageIdentifier.IssueId=JM021043",
-    "file_img": "https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=CoverIssue&imageInfo.ImageIdentifier.SerCode=JM&imageInfo.ImageIdentifier.IssueId=JM021043"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Ting-Shan Chan, Chung-Li Dong, Yi-Hauan Chen, Ying-Rui Lu, Sheng-Yun Wu, Yuan-Ron Ma, Chun-Che Lin, Ru-Shi Liu, Jeng-Lung Chen, JingHua Guo, Jyh-Fu Lee, Hwo-Shuenn Sheu, Chun-Chuen Yang, Chi-Liang Chen",
+    "altmetric_id": "10.1039/c1jm11849h"
   },
   {
     "id": "31f1bcc1-f442-81be-8133-d17d0663cb36",
@@ -1953,7 +2277,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0009261411011791-fx1_lrg.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0009261411X00283-cov150h.gif"
+    "file_img": "",
+    "authors": "Y.R. Lu, C.H. Huang, T.M. Chen, J.H. Lin, Y.R. Ma, J.L. Chen, C.C. Hsu, C.L. Chen, C.L. Dong, T.S. Chan",
+    "altmetric_id": "10.1016/j.cplett.2011.09.052"
   },
   {
     "id": "31f1bcc1-f442-81b6-80c2-ccf9961eb85c",
@@ -1964,8 +2290,10 @@
     "citations": 2,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mam/Issue/17/6/2/m_cover.gif?Expires=1776321912&Signature=i7pLGWv6UqS-9qDKVJVgD7M-TQOPbzMLZ~sTBqG1v1aFNr2xyVB~fVfC4z02NceCQIt8LAkmVqQLW~vUr3iNVl23AbIq4aF843V2klHEkFMGKsY-WXdZTaGtYooTMxIeZt3l9-D24NRqroH8X834AXcrCMKlNUvWWW3hSueLs8J1WIz2tIH3CFMevnxBclcIZiUFRFlIhgZyAOgQdamWTdZCgZ2emY5VXinsD7KtLMnVChxsr-6NdJD69HsbyzrCGiBG5WAGMjtGITDa5MKKfVjoDUFX29sjr7~DDdgXFnBoVwbt49U-2nZ4pLmnVbN8~maV6y-K~B7pMfJQJJ1fCg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
-    "file_img": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mam/Issue/17/6/2/m_cover.gif?Expires=1776321912&Signature=i7pLGWv6UqS-9qDKVJVgD7M-TQOPbzMLZ~sTBqG1v1aFNr2xyVB~fVfC4z02NceCQIt8LAkmVqQLW~vUr3iNVl23AbIq4aF843V2klHEkFMGKsY-WXdZTaGtYooTMxIeZt3l9-D24NRqroH8X834AXcrCMKlNUvWWW3hSueLs8J1WIz2tIH3CFMevnxBclcIZiUFRFlIhgZyAOgQdamWTdZCgZ2emY5VXinsD7KtLMnVChxsr-6NdJD69HsbyzrCGiBG5WAGMjtGITDa5MKKfVjoDUFX29sjr7~DDdgXFnBoVwbt49U-2nZ4pLmnVbN8~maV6y-K~B7pMfJQJJ1fCg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Shun-Yu Gao, Yu-Rong Lin, Shun-Rong Cheng, Chia-Er Hsu, Chia-Hao Chen, Hung-Wei Shiu, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1017/s1431927611011901"
   },
   {
     "id": "31f1bcc1-f442-812e-ab76-f78c603c2322",
@@ -1977,7 +2305,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Ching-Ling Lin, Jin-Han Lin, Ranjit R. Patil, Yuan-Ron Ma",
+    "altmetric_id": "10.1109/nems.2011.6017393"
   },
   {
     "id": "31f1bcc1-f442-8150-b532-e1f10d36ced7",
@@ -1985,11 +2315,13 @@
     "year": "2010",
     "journal": "Journal of Applied Crystallography",
     "doi": "https://doi.org/10.1107/s002188981000796x",
-    "citations": 39,
+    "citations": 40,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://scripts.iucr.org/cgi-bin/sendimage?image=/j/issues/2010/03/00/aj5142/aj5142thumbnail.gif",
-    "file_img": "https://journals.iucr.org/logos/jicons/j_96x112.png"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Wei-Der Ho, Sheng Yun Wu, Yuan-Ron Ma",
+    "altmetric_id": "10.1107/s002188981000796x"
   },
   {
     "id": "31f1bcc1-f442-8144-96e0-f152b1b223fd",
@@ -2000,8 +2332,10 @@
     "citations": 35,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://scripts.iucr.org/cgi-bin/sendimage?image=/j/issues/2010/05/01/aj5146/aj5146thumbnail.gif",
-    "file_img": "https://journals.iucr.org/logos/jicons/j_96x112.png"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Jin-Han Lin, Wei-Der Ho, Sheng Yun Wu, Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1107/s0021889810026646"
   },
   {
     "id": "31f1bcc1-f442-81d7-8a9b-d3bc9fa27623",
@@ -2009,11 +2343,13 @@
     "year": "2010",
     "journal": "Nanoscale Research Letters",
     "doi": "https://doi.org/10.1007/s11671-009-9509-1",
-    "citations": 19,
+    "citations": 21,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w120/springer-static/cover-hires/journal/11671?as=webp",
-    "file_img": "https://media.springernature.com/w120/springer-static/cover-hires/journal/11671?as=webp"
+    "cover_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1b07/3241032/1bcf351b0e17/1556-276X-5-581-1.jpg",
+    "file_img": "",
+    "authors": "Ashish C. Gandhi, Hsuan-Jung Hung, Po-Hsun Shih, Chia-Liang Cheng, Yuan-Ron Ma, Sheng Yun Wu",
+    "altmetric_id": "10.1007/s11671-009-9509-1"
   },
   {
     "id": "31f1bcc1-f442-8146-8926-d40b02ebed15",
@@ -2024,8 +2360,10 @@
     "citations": 12,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true",
-    "file_img": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Jhong-Yi Ji, Po-Hsun Shih, Chun Chuen Yang, Ting Shan Chan, Yuan-Ron Ma, Sheng Yun Wu",
+    "altmetric_id": "10.1088/0957-4484/21/4/045603"
   },
   {
     "id": "31f1bcc1-f442-81b1-8ddd-fd7e9697082a",
@@ -2036,8 +2374,10 @@
     "citations": 1,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://www.ingentaconnect.com/images/journal-logos/asp/jnn.gif",
-    "file_img": "https://www.ingentaconnect.com/images/journal-logos/asp/jnn.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Guan-Chun Xie, Ching-Lin Lin, Shun-Yu Gao, Rupesh S. Devan, Li-Min Wang, Sheng Yun Wu, Yuan-Ron Ma",
+    "altmetric_id": "10.1166/jnn.2010.2358"
   },
   {
     "id": "31f1bcc1-f442-8101-b5e1-de4826d6b26c",
@@ -2048,8 +2388,8 @@
     "citations": 0,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true",
-    "file_img": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true"
+    "cover_url": "",
+    "file_img": ""
   },
   {
     "id": "31f1bcc1-f442-81f4-abbf-e35ccf722a51",
@@ -2060,8 +2400,10 @@
     "citations": 53,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0254058409X00040-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0254058409X00040-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0254058408009772-gr1.jpg",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Yuan-Ron Ma, B.K. Chougule",
+    "altmetric_id": "10.1016/j.matchemphys.2008.11.059"
   },
   {
     "id": "31f1bcc1-f442-81ac-ac9b-fd54890e31a8",
@@ -2072,8 +2414,10 @@
     "citations": 17,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true",
-    "file_img": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "N G Deshpande, Y G Gudage, R S Devan, Y R Ma, Y P Lee, Ramphal Sharma",
+    "altmetric_id": "10.1088/0964-1726/18/9/095010"
   },
   {
     "id": "31f1bcc1-f442-8151-8ab4-db4af7cb6829",
@@ -2084,8 +2428,10 @@
     "citations": 15,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1047847709X00092-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S1047847709X00092-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1047847709001476-gr1.jpg",
+    "file_img": "",
+    "authors": "Kai-Ting Chang, May-Jywan Tsai, Ya-Ting Cheng, Jyun-Jlang Chen, Ray-Hom Hsia, Yu-Shiu Lo, Yuan-Ron Ma, Ching-Feng Weng",
+    "altmetric_id": "10.1016/j.jsb.2009.06.005"
   },
   {
     "id": "31f1bcc1-f442-818d-a522-e7b7002a28eb",
@@ -2096,8 +2442,10 @@
     "citations": 98,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true",
-    "file_img": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Latha Kumari, Jin-Han Lin, Yuan-Ron Ma",
+    "altmetric_id": "10.1088/0022-3727/41/2/025405"
   },
   {
     "id": "31f1bcc1-f442-810b-b1ed-f0fb23353812",
@@ -2108,8 +2456,10 @@
     "citations": 59,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true",
-    "file_img": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "R S Devan, D R Dhakras, T G Vichare, A S Joshi, S R Jigajeni, Yuan-Ron Ma, B K Chougule",
+    "altmetric_id": "10.1088/0022-3727/41/10/105010"
   },
   {
     "id": "31f1bcc1-f442-811d-951a-fb418806839b",
@@ -2120,8 +2470,10 @@
     "citations": 39,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://pubs.acs.org/cms/10.1021/cg800369s/asset/images/medium/cg-2008-00369s_0005.gif",
-    "file_img": "https://pubs.acs.org/cms/10.1021/cgdefu.2008.8.issue-12/asset/17b361db-2317-361d-6231-b361db62317b/largecover.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Rupesh S. Devan, Wei-Der Ho, Jin-Han Lin, Sheng Yun Wu, Yuan-Ron Ma, Ping-Chung Lee, Yung Liou",
+    "altmetric_id": "10.1021/cg800369s"
   },
   {
     "id": "31f1bcc1-f442-8150-8b3f-cc0a1b8763e0",
@@ -2132,8 +2484,10 @@
     "citations": 14,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Po-Hsun Shih, Jhong-Yi Ji, Yuan-Ron Ma, Sheng Yun Wu",
+    "altmetric_id": "10.1063/1.2839331"
   },
   {
     "id": "31f1bcc1-f442-8114-8ac6-f23dc57cac0f",
@@ -2145,7 +2499,9 @@
     "is_star": "否",
     "highlight": "🔥 國際標竿",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Latha Kumari, Yuan-Ron Ma, Chai-Chang Tsai, Yi-Way Lin, Sheng Yun Wu, Kai-Wen Cheng, Yung Liou",
+    "altmetric_id": "10.1088/0957-4484/18/11/115717"
   },
   {
     "id": "31f1bcc1-f442-8187-b977-c1204d99f592",
@@ -2156,8 +2512,10 @@
     "citations": 146,
     "is_star": "否",
     "highlight": "🔥 國際標竿",
-    "cover_url": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true",
-    "file_img": "https://cms.iopscience.org/d19719fc-71b3-11ef-b232-8f9c605a91ff/PLP-Logo.png?guest=true"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Latha Kumari, Jin-Han Lin, Yuan-Ron Ma",
+    "altmetric_id": "10.1088/0953-8984/19/40/406204"
   },
   {
     "id": "31f1bcc1-f442-817f-886c-cca71ce9db80",
@@ -2169,7 +2527,9 @@
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Latha Kumari, Jin-Han Lin, Yuan-Ron Ma",
+    "altmetric_id": "10.1088/0957-4484/18/29/295605"
   },
   {
     "id": "31f1bcc1-f442-816b-821f-e0b9231fdf24",
@@ -2180,8 +2540,10 @@
     "citations": 49,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X01694332.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X01694332.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0169433207000219-gr1.jpg",
+    "file_img": "",
+    "authors": "Latha Kumari, Shih-Jie Lin, Jin-Han Lin, Yuan-Ron Ma, Ping-Chung Lee, Yung Liou",
+    "altmetric_id": "10.1016/j.apsusc.2006.12.125"
   },
   {
     "id": "31f1bcc1-f442-81f3-b286-e3224efd0453",
@@ -2193,7 +2555,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "C-L Cheng, Y-R Ma, M H Chou, C Y Huang, V Yeh, S Y Wu",
+    "altmetric_id": "10.1088/0957-4484/18/24/245604"
   },
   {
     "id": "31f1bcc1-f442-810f-be17-e505d6f5b158",
@@ -2204,8 +2568,10 @@
     "citations": 5,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0039602807X10823-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0039602807X10823-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0039602807002749-gr1.jpg",
+    "file_img": "",
+    "authors": "Yo-Shan Lu, Hsin-I Wu, Sheng Yun Wu, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/j.susc.2007.04.007"
   },
   {
     "id": "31f1bcc1-f442-81fc-a96a-edc58a6fddde",
@@ -2216,8 +2582,10 @@
     "citations": 3,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0039602807X10823-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0039602807X10823-cov150h.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Cheng-Liang You, Sheng Yun Wu, Yuan-Ron Ma, Chwen Yu, Dong-Cheng Chen, Yung Liou, Yeong Der Yao",
+    "altmetric_id": "10.1016/j.susc.2007.04.117"
   },
   {
     "id": "31f1bcc1-f442-810d-adf1-e53998551495",
@@ -2228,8 +2596,10 @@
     "citations": 1,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "",
-    "file_img": ""
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885306024541-gr1.jpg",
+    "file_img": "",
+    "authors": "S.Y. Wu, Y.-R. Ma, M.T. Liao, W.-H. Li",
+    "altmetric_id": "10.1016/j.jmmm.2006.11.105"
   },
   {
     "id": "31f1bcc1-f442-8187-b198-ed246bd7caaa",
@@ -2240,8 +2610,10 @@
     "citations": 23,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885307X05456-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885307X05456-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885306002149-gr1.jpg",
+    "file_img": "",
+    "authors": "Yuan-Ron Ma, Chai-Chang Tsai, Shang Fan Lee, Kai-Wen Cheng, Yung Liou, Yeong Der Yao",
+    "altmetric_id": "10.1016/j.jmmm.2006.02.025"
   },
   {
     "id": "31f1bcc1-f442-81a0-8348-f0e8689f2342",
@@ -2252,8 +2624,10 @@
     "citations": 5,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Ji-Shiuan Chen, Yuan-Ron Ma, Yung Liou, Yeong Der Yao",
+    "altmetric_id": "10.1063/1.2151767"
   },
   {
     "id": "31f1bcc1-f442-81ec-ad6e-d23e17c54681",
@@ -2264,8 +2638,10 @@
     "citations": 61,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jvb/jvb_cover-1769426064.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jvb/jvb_cover-1769426064.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Yuan-Ron Ma, Chi-Ming Lin, Chun-Liang Yeh, Rong-Tan Huang",
+    "altmetric_id": "10.1116/1.2050668"
   },
   {
     "id": "31f1bcc1-f442-81d3-b464-cb8461144d1a",
@@ -2277,7 +2653,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "H.-I. Wu, Ji-Shiuan Chen, Yuan-Ron Ma, Y. Liou, Yeong Der Yao",
+    "altmetric_id": "10.1109/tmag.2005.854756"
   },
   {
     "id": "31f1bcc1-f442-813a-9191-e1601cc2de73",
@@ -2288,20 +2666,24 @@
     "citations": 2,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Y.-R. Ma, M. S. Wong, C.-H. See, K.-W. Cheng, J. C. Wu, Y. Liou, Y.-D. Yao",
+    "altmetric_id": "10.1063/1.1853151"
   },
   {
     "id": "31f1bcc1-f442-81e5-bc4c-e0207ec09732",
     "title": "Surface magnetic ripples induced by a local stray field from a scanning magnetic tip",
     "year": "2005",
     "journal": "Intermag Asia 2005 Digests of the IEEE International Magnetics Conference",
-    "doi": "https://scholar.google.com/scholar?q=Surface%20magnetic%20ripples%20induced%20by%20a%20local%20stray%20field%20from%20a%20scanning%20magnetic%20tip",
+    "doi": "https://doi.org/10.1109/intmag.2005.1464017",
     "citations": 0,
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Hsin-I Wu, Ji-Shiuan Chen, Yuan-Ron Ma, Yung Liou, Yeong-Der Yao",
+    "altmetric_id": "10.1109/intmag.2005.1464017"
   },
   {
     "id": "31f1bcc1-f442-81d4-b75d-d23ae8ece461",
@@ -2312,8 +2694,10 @@
     "citations": 12,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "M. S. Wong, K.-W. Cheng, C.-H. Shee, Y.-R. Ma, J. C. Wu, Y. Liou, Y.-D. Yao",
+    "altmetric_id": "10.1063/1.1652331"
   },
   {
     "id": "31f1bcc1-f442-819d-97f5-e67cd2ad0aad",
@@ -2324,8 +2708,10 @@
     "citations": 11,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885326X20030-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885326X20030-cov150h.gif"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885304003324-gr1.jpg",
+    "file_img": "",
+    "authors": "Yuan-Ron Ma, Kai-Wen Cheng, Cheng-Hung Shee, Chai-Chang Tsai, Chia-Liang Cheng, Hsiang-Lin Liu, Ming Shou Wong, Yung Liou, Yeong-Der Yao",
+    "altmetric_id": "10.1016/j.jmmm.2004.04.014"
   },
   {
     "id": "31f1bcc1-f442-81e1-8e3f-f99fe007ca4b",
@@ -2336,8 +2722,10 @@
     "citations": 6,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885326X20030-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885326X20030-cov150h.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Yuan-Ron Ma, Yung Liou, Yeong-Der Yao",
+    "altmetric_id": "10.1016/j.jmmm.2004.04.080"
   },
   {
     "id": "31f1bcc1-f442-81f5-88ec-c9cb044ea102",
@@ -2348,8 +2736,10 @@
     "citations": 5,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Yung Liou, Dong-Cheng Chen, Chwen Yu, J. S. Chen, Shang-Fan Lee, Y. D. Yao, C. C. Tzeng, T. Y. Chen, K. W. Cheng, Ron Ma",
+    "altmetric_id": "10.1063/1.1688672"
   },
   {
     "id": "31f1bcc1-f442-81d5-8b70-d143e1b80b49",
@@ -2360,8 +2750,10 @@
     "citations": 0,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885326X20030-cov150h.gif",
-    "file_img": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885326X20030-cov150h.gif"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Y.D Yao, E.W Huang, S.F Lee, C Yu, M.S Wong, Y.R Ma",
+    "altmetric_id": "10.1016/j.jmmm.2003.12.380"
   },
   {
     "id": "31f1bcc1-f442-8133-a46c-f1685cc16ec3",
@@ -2372,8 +2764,10 @@
     "citations": 6,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X09214526.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09214526.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0921452602017453-gr1.jpg",
+    "file_img": "",
+    "authors": "C. Yu, S.F. Lee, Y.D. Yao, M.S. Wong, E.W. Huang, Y.-R. Ma, J.L. Tsai, C.R. Chang",
+    "altmetric_id": "10.1016/s0921-4526(02)01745-3"
   },
   {
     "id": "31f1bcc1-f442-8166-8b3c-d7327149ccba",
@@ -2384,8 +2778,10 @@
     "citations": 5,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jap/jap_cover1224123699.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "C. Yu, S. F. Lee, Y. D. Yao, Y. R. Ma, E. W. Huang, J. L. Tsai, T. Y. Chen, C. R. Chang",
+    "altmetric_id": "10.1063/1.1556935"
   },
   {
     "id": "31f1bcc1-f442-8104-8833-c35122c5802e",
@@ -2396,8 +2792,10 @@
     "citations": 9,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X03048853.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X03048853.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0304885301006060-gr1.gif",
+    "file_img": "",
+    "authors": "Y.-R. Ma, C.-H. Chueh, W.-L. Kuang, Y. Liou, Y.-D. Yao",
+    "altmetric_id": "10.1016/s0304-8853(01)00606-0"
   },
   {
     "id": "31f1bcc1-f442-81c3-8442-c019031b1d9c",
@@ -2408,8 +2806,10 @@
     "citations": 8,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X00396028.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00396028.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Y.-R. Ma, C.-H. Chueh, W.-L. Kuang, Y. Liou, Y.-D. Yao",
+    "altmetric_id": "10.1016/s0039-6028(02)01311-0"
   },
   {
     "id": "31f1bcc1-f442-81e2-b830-f698e3e0c09b",
@@ -2420,8 +2820,10 @@
     "citations": 0,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mam/Issue/8/S02/4/m_cover.gif?Expires=1776325660&Signature=sEhZ0qyZZ2LQJTbKzOWuZ2pyKi6KFUMpzsczZNLRQgPWKIHRxw7UnTMeXHDEfT7UyHN19ujS0pQnpcESUArcPms4EujgfiVvqHzonjZpBkWVOfb7hx8GX3s6mN5F19trHu5vJkMHamDibz1W1Clg1WG8fH3yvRk94W8kifEULXzUxibUGRI8LCkKphbJW37rOhRJEHn-81BdK7f0K6lbLIsy216ALP5kin2TPfrzysvX8Sw2oamHEoSEsHNrieXcJjQrvuITBXM3Qz03ghra042n53b8-SgsTs9LlLMzU2pNIq5uDCPSsCFBreSaBprfBwBCybcIUrW2aVpvYebmzQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
-    "file_img": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mam/Issue/8/S02/4/m_cover.gif?Expires=1776325660&Signature=sEhZ0qyZZ2LQJTbKzOWuZ2pyKi6KFUMpzsczZNLRQgPWKIHRxw7UnTMeXHDEfT7UyHN19ujS0pQnpcESUArcPms4EujgfiVvqHzonjZpBkWVOfb7hx8GX3s6mN5F19trHu5vJkMHamDibz1W1Clg1WG8fH3yvRk94W8kifEULXzUxibUGRI8LCkKphbJW37rOhRJEHn-81BdK7f0K6lbLIsy216ALP5kin2TPfrzysvX8Sw2oamHEoSEsHNrieXcJjQrvuITBXM3Qz03ghra042n53b8-SgsTs9LlLMzU2pNIq5uDCPSsCFBreSaBprfBwBCybcIUrW2aVpvYebmzQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "C. Yu, S.F. Lee, Y.D. Yao, Y. R. Ma, J. L. Tsai, C. R. Chang",
+    "altmetric_id": "10.1017/s1431927602103473"
   },
   {
     "id": "31f1bcc1-f442-8138-b3c2-cf665f31219a",
@@ -2432,32 +2834,24 @@
     "citations": 0,
     "is_star": "是",
     "highlight": "📄 一般論文",
-    "cover_url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mam/Issue/8/S02/4/m_cover.gif?Expires=1776325634&Signature=m08pIYyorOmPT2MFYyX5jSEuw~~I0ChGxNg1tDqMmgjEaIhGCcslvasOMzVvCmfM-wpnJTeFK-O1VqLrr4kxvG~WfwdTGAdkwm0rdmPumrwO8wK9py~fJaI1CoPx0QxAzv0LPFMXsYel~cLmOBYUTtA6rKdXinsBRXaoAN5RQ2WHqVrzWb8TXtBrvPGWRMtrZqNoai1-NXoLUDNfqEiQFOfLb0dGoAjqRjbPwBm8Hn2ZSCFXK-AMM~yWCUC9En-PPchYSkim9RXuF9pdmEYH8~vJ6ciCLcvGNeuw2rDTiM6ns~-vN3T0~4GCKTc0FW5sYlditzdxKv~ZZdP~ZU6lHw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
-    "file_img": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mam/Issue/8/S02/4/m_cover.gif?Expires=1776325634&Signature=m08pIYyorOmPT2MFYyX5jSEuw~~I0ChGxNg1tDqMmgjEaIhGCcslvasOMzVvCmfM-wpnJTeFK-O1VqLrr4kxvG~WfwdTGAdkwm0rdmPumrwO8wK9py~fJaI1CoPx0QxAzv0LPFMXsYel~cLmOBYUTtA6rKdXinsBRXaoAN5RQ2WHqVrzWb8TXtBrvPGWRMtrZqNoai1-NXoLUDNfqEiQFOfLb0dGoAjqRjbPwBm8Hn2ZSCFXK-AMM~yWCUC9En-PPchYSkim9RXuF9pdmEYH8~vJ6ciCLcvGNeuw2rDTiM6ns~-vN3T0~4GCKTc0FW5sYlditzdxKv~ZZdP~ZU6lHw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Yuan-Ron Ma, H.-J. Chiang, Yung-Der Yao",
+    "altmetric_id": "10.1017/s1431927602107136"
   },
   {
     "id": "31f1bcc1-f442-81bd-8f2f-e71f14935fd0",
     "title": "Tip-induced local anodic oxidation on the native SiO2 layer of Si(111) using an atomic force microscope",
     "year": "2001",
     "journal": "Physical Review B Condensed Matter and Materials Physics",
-    "doi": "https://scholar.google.com/scholar?q=Tip-induced%20local%20anodic%20oxidation%20on%20the%20native%20SiO2%20layer%20of%20Si%28111%29%20using%20an%20atomic%20force%20microscope",
+    "doi": "https://doi.org/10.1103/physrevb.64.195324",
     "citations": 44,
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
-  },
-  {
-    "id": "31f1bcc1-f442-815e-ae16-d09662732a64",
-    "title": "Tip-induced local anodic oxidation on the native (formula presented) layer of Si(111) using an atomic force microscope",
-    "year": "2001",
-    "journal": "Physical Review B Condensed Matter and Materials Physics",
-    "doi": "https://doi.org/10.1103/physrevb.64.195324",
-    "citations": 0,
-    "is_star": "是",
-    "highlight": "📄 一般論文",
-    "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Y.-R. Ma, C. Yu, Y.-D. Yao, Y. Liou, S.-F. Lee",
+    "altmetric_id": "10.1103/physrevb.64.195324"
   },
   {
     "id": "31f1bcc1-f442-81a4-a862-dff690795fe6",
@@ -2468,12 +2862,14 @@
     "citations": 81,
     "is_star": "否",
     "highlight": "⭐ 重點關注",
-    "cover_url": "https://ars.els-cdn.com/content/image/X00396028.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00396028.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "P. Moriarty, Y.R. Ma, M.D. Upward, P.H. Beton",
+    "altmetric_id": "10.1016/s0039-6028(98)00082-x"
   },
   {
     "id": "31f1bcc1-f442-8102-946f-c243d618002f",
-    "title": "Terminated Si surfaces: Charge transfer, bonding, and chemical passivation",
+    "title": "C60-terminated Si surfaces: Charge transfer, bonding, and chemical passivation",
     "year": "1998",
     "journal": "Physical Review B Condensed Matter and Materials Physics",
     "doi": "https://doi.org/10.1103/physrevb.57.362",
@@ -2481,7 +2877,9 @@
     "is_star": "否",
     "highlight": "⭐ 重點關注",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "P. Moriarty, M. D. Upward, A. W. Dunn, Y.-R. Ma, P. H. Beton, D. Teehan",
+    "altmetric_id": "10.1103/physrevb.57.362"
   },
   {
     "id": "31f1bcc1-f442-81a0-b160-f7564df33b19",
@@ -2492,8 +2890,10 @@
     "citations": 9,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X00396028.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00396028.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Y.-R. Ma, P. Moriarty, M.D. Upward, P.H. Beton",
+    "altmetric_id": "10.1016/s0039-6028(97)00716-4"
   },
   {
     "id": "31f1bcc1-f442-819f-be5f-ca73a5f5dedd",
@@ -2504,8 +2904,10 @@
     "citations": 8,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X00396028.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00396028.jpg"
+    "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0039602897010741-gr1.gif",
+    "file_img": "",
+    "authors": "P Moriarty, M.D Upward, Y.-R Ma, A.W Dunn, P.H Beton, D Teehan, D.A Woolf",
+    "altmetric_id": "10.1016/s0039-6028(97)01074-1"
   },
   {
     "id": "31f1bcc1-f442-81b4-bf8a-e6f29ab428e1",
@@ -2517,7 +2919,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "P Moriarty, Y-R Ma, M D Upward, P H Beton, D Teehan",
+    "altmetric_id": "10.1088/0268-1242/13/8a/016"
   },
   {
     "id": "31f1bcc1-f442-8166-a6c6-c476e5b9a5cb",
@@ -2529,7 +2933,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "P. Moriarty, Y.-R. Ma, A. W. Dunn, P. H. Beton, M. Henini, C. McGinley, E. McLoughlin, A. A. Cafolla, G. Hughes, S. Downes, D. Teehan, B. Murphy",
+    "altmetric_id": "10.1103/physrevb.55.15397"
   },
   {
     "id": "31f1bcc1-f442-8134-b72e-ca025d7e86a9",
@@ -2541,7 +2947,9 @@
     "is_star": "是",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "Y-R. Ma, P. Moriarty, P. H. Beton",
+    "altmetric_id": "10.1103/physrevlett.78.2588"
   },
   {
     "id": "31f1bcc1-f442-81d7-acbe-d8c107ff7140",
@@ -2552,8 +2960,10 @@
     "citations": 7,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X00396028.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X00396028.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "A.A. Cafolla, C. McGinley, E. McLoughlin, G. Hughes, P. Moriarty, A.W. Dunn, Y.-R. Ma, D. Teehan, B. Murphy, S. Downes, D.A. Woolf",
+    "altmetric_id": "10.1016/s0039-6028(96)01379-9"
   },
   {
     "id": "31f1bcc1-f442-81db-8c6a-fbec5a853a77",
@@ -2564,8 +2974,10 @@
     "citations": 1,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://www.tandfonline.com/action/showCoverImage?doi=10.1080/lfnn19.v005.i04",
-    "file_img": "https://www.tandfonline.com/action/showCoverImage?doi=10.1080/lfnn19.v005.i04"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "P. Moriarty, A. W. Dunn, Y-R. Ma, M. D. Upward, P. H. Beton",
+    "altmetric_id": "10.1080/15363839708012230"
   },
   {
     "id": "31f1bcc1-f442-8194-8be5-c1defa3f8daf",
@@ -2577,7 +2989,9 @@
     "is_star": "否",
     "highlight": "📄 一般論文",
     "cover_url": "",
-    "file_img": ""
+    "file_img": "",
+    "authors": "P. Moriarty, P. H. Beton, Y. -R. Ma, M. Henini, D. A. Woolf",
+    "altmetric_id": "10.1103/physrevb.53.r16148"
   },
   {
     "id": "31f1bcc1-f442-8105-af0a-f98e4f1efa5e",
@@ -2588,8 +3002,10 @@
     "citations": 25,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jvb/jvb_cover-1769426064.jpg",
-    "file_img": "https://aipp.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jvb/jvb_cover-1769426064.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "P. Moriarty, P. H. Beton, Y.-R. Ma, A. W. Dunn, M. Henini, D. A. Woolf",
+    "altmetric_id": "10.1116/1.589180"
   },
   {
     "id": "31f1bcc1-f442-81eb-9cc9-d53eac60add9",
@@ -2597,11 +3013,13 @@
     "year": "1994",
     "journal": "Diamond and Related Materials",
     "doi": "https://doi.org/10.1016/0925-9635(94)90227-5",
-    "citations": 8,
+    "citations": 10,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://ars.els-cdn.com/content/image/X09259635.jpg",
-    "file_img": "https://ars.els-cdn.com/content/image/X09259635.jpg"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Yung Liou, Yuan-Ron Ma",
+    "altmetric_id": "10.1016/0925-9635(94)90227-5"
   },
   {
     "id": "31f1bcc1-f442-81a4-9e0b-dce75b364cd5",
@@ -2612,7 +3030,9 @@
     "citations": 0,
     "is_star": "否",
     "highlight": "📄 一般論文",
-    "cover_url": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10855?as=webp",
-    "file_img": "https://media.springernature.com/w158/springer-static/cover-hires/journal/10855?as=webp"
+    "cover_url": "",
+    "file_img": "",
+    "authors": "Chin-Chen Chid, Yuan-Ron Ma, Yung Liou",
+    "altmetric_id": "10.1007/bf00517611"
   }
 ]

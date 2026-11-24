@@ -102,6 +102,80 @@ class SyncNotionTests(unittest.TestCase):
         self.assertEqual(meta["starred_count"], 2)
         self.assertEqual(meta["with_cover_count"], 2)
 
+    def test_merge_preserves_curated_fields_filters_generic_covers_and_dedupes(self):
+        existing = [
+            {
+                "title": "C60-terminated Si surfaces: Charge transfer",
+                "year": "1998",
+                "journal": "Physical Review B",
+                "doi": "https://doi.org/10.1103/physrevb.57.362",
+                "citations": 71,
+                "is_star": "否",
+                "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0169433226026449-ga1_lrg.jpg",
+                "file_img": "",
+                "authors": "Yuan-Ron Ma, Co-Author",
+            },
+            {
+                "title": "Tip-induced local anodic oxidation on the native SiO2 layer of Si(111)",
+                "year": "2001",
+                "journal": "Physical Review B",
+                "doi": "https://doi.org/10.1103/physrevb.64.195324",
+                "citations": 44,
+                "is_star": "是",
+                "cover_url": "",
+                "file_img": "",
+                "authors": "Yuan-Ron Ma",
+            },
+        ]
+        incoming = [
+            {
+                "title": "Terminated Si surfaces: Charge transfer",
+                "year": "1998",
+                "journal": "Physical Review B",
+                "doi": "https://doi.org/10.1103/physrevb.57.362",
+                "citations": 60,
+                "is_star": "否",
+                "cover_url": "https://ars.els-cdn.com/content/image/X09258388.jpg",
+                "file_img": "https://ars.els-cdn.com/content/image/X09258388.jpg",
+            },
+            {
+                "title": "Tip-induced local anodic oxidation on the native (formula presented) layer of Si(111)",
+                "year": "2001",
+                "journal": "Physical Review B",
+                "doi": "https://doi.org/10.1103/physrevb.64.195324",
+                "citations": 0,
+                "is_star": "是",
+                "cover_url": "",
+                "file_img": "",
+            },
+            {
+                "title": "Tip-induced local anodic oxidation on the native SiO2 layer of Si(111)",
+                "year": "2001",
+                "journal": "Physical Review B",
+                "doi": "https://scholar.google.com/scholar?q=tip",
+                "citations": 44,
+                "is_star": "是",
+                "cover_url": "",
+                "file_img": "",
+            },
+        ]
+        merged = sync_notion.merge_and_deduplicate_papers(incoming, existing)
+        self.assertEqual(len(merged), 2)
+        first = next(p for p in merged if "physrevb.57.362" in p["doi"])
+        self.assertEqual(first["title"], "C60-terminated Si surfaces: Charge transfer")
+        self.assertEqual(first["citations"], 71)
+        self.assertEqual(
+            first["cover_url"],
+            "https://ars.els-cdn.com/content/image/1-s2.0-S0169433226026449-ga1_lrg.jpg",
+        )
+        self.assertEqual(first["file_img"], "")
+        self.assertEqual(first["authors"], "Yuan-Ron Ma, Co-Author")
+
+        second = next(p for p in merged if "physrevb.64.195324" in p["doi"])
+        self.assertEqual(second["title"], "Tip-induced local anodic oxidation on the native SiO2 layer of Si(111)")
+        self.assertEqual(second["citations"], 44)
+        self.assertEqual(second["authors"], "Yuan-Ron Ma")
+
 
 if __name__ == "__main__":
     unittest.main()
