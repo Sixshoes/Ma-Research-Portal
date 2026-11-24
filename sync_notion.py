@@ -55,6 +55,8 @@ TRUSTED_FIGURE_CDN_PATTERNS = (
     re.compile(r"^https://[^/]+\.firebasestorage\.app/", re.IGNORECASE),
     re.compile(r"^https://ars\.els-cdn\.com/content/image/1-s2\.0-", re.IGNORECASE),
     re.compile(r"^https://cdn\.ncbi\.nlm\.nih\.gov/pmc/blobs/", re.IGNORECASE),
+    re.compile(r"^https://media\.springernature\.com/", re.IGNORECASE),
+    re.compile(r"^https://(?:[a-z0-9-]+\.)?onlinelibrary\.wiley\.com/cms/asset/", re.IGNORECASE),
 )
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -154,11 +156,30 @@ def extract_bare_doi(raw: Any) -> str:
     return match.group(1).rstrip(".,;)").lower()
 
 
+def safe_int(val: Any, default: int = 0) -> int:
+    """安全轉換為非負整數，避免髒資料造成 ValueError/TypeError。"""
+    if val is None or isinstance(val, bool):
+        return default
+    try:
+        return max(0, int(val))
+    except (TypeError, ValueError):
+        return default
+
+
+def compute_highlight_label(citations: int) -> str:
+    """依引用數區間產出一致的研究亮點標籤。"""
+    if citations >= 100:
+        return "🔥 國際標竿"
+    if citations >= 50:
+        return "⭐ 重點關注"
+    return "📄 一般論文"
+
+
 def normalize_title_key(raw: Any) -> str:
-    """標準化標題作為次要比對鍵（去除空白、標點與大小寫差異）。"""
+    """標準化標題作為次要比對鍵（支援 Unicode，去除空白、底線與標點差異）。"""
     if not isinstance(raw, str):
         return ""
-    return re.sub(r"[^a-z0-9]+", "", raw.lower())
+    return re.sub(r"[\W_]+", "", raw.lower(), flags=re.UNICODE)
 
 
 def pick_better_title(incoming_title: str, existing_title: str) -> str:
@@ -185,9 +206,10 @@ def merge_and_deduplicate_papers(
     incoming_papers: list[dict[str, Any]],
     existing_papers: list[dict[str, Any]] | None,
 ) -> list[dict[str, Any]]:
-    """非破壞性合併：保留既有清洗後的高解析摘要圖、作者、較高引用數與修復標題，並依 DOI 去重。"""
+    """非破壞性合併：保留既有清洗後的高解析摘要圖、作者、導讀欄位、較高引用數與修復標題，並依 DOI 去重。"""
     existing_list = existing_papers if isinstance(existing_papers, list) else []
     by_doi: dict[str, dict[str, Any]] = {}
+    by_id: dict[str, dict[str, Any]] = {}
     by_title: dict[str, dict[str, Any]] = {}
     existing_cover_owner: dict[str, str] = {}
 
@@ -197,6 +219,9 @@ def merge_and_deduplicate_papers(
         bare_doi = extract_bare_doi(item.get("doi"))
         if bare_doi:
             by_doi[bare_doi] = item
+        item_id = str(item.get("id") or "").strip()
+        if item_id:
+            by_id[item_id] = item
         title_key = normalize_title_key(item.get("title"))
         if title_key:
             by_title[title_key] = item
@@ -206,13 +231,17 @@ def merge_and_deduplicate_papers(
 
     merged: list[dict[str, Any]] = []
     seen_by_doi: dict[str, int] = {}
+    curated_text_fields = ("authors", "altmetric_id", "takeaway", "abstract_excerpt")
 
     for raw_item in incoming_papers:
         item = dict(raw_item)
         bare_doi = extract_bare_doi(item.get("doi"))
+        item_id = str(item.get("id") or "").strip()
         title_key = normalize_title_key(item.get("title"))
 
         prev = by_doi.get(bare_doi) if bare_doi else None
+        if prev is None and item_id:
+            prev = by_id.get(item_id)
         if prev is None and title_key:
             prev = by_title.get(title_key)
 
@@ -222,6 +251,8 @@ def merge_and_deduplicate_papers(
         if is_generic_cover_url(item.get("file_img")):
             item["file_img"] = ""
 
+        incoming_citations = safe_int(item.get("citations"), 0)
+
         if prev is not None:
             prev_doi = extract_bare_doi(prev.get("doi"))
             if not bare_doi and prev_doi:
@@ -229,7 +260,14 @@ def merge_and_deduplicate_papers(
                 bare_doi = prev_doi
 
             item["title"] = pick_better_title(str(item.get("title") or ""), str(prev.get("title") or ""))
-            item["citations"] = max(int(item.get("citations") or 0), int(prev.get("citations") or 0))
+            prev_citations = safe_int(prev.get("citations"), 0)
+            final_citations = max(incoming_citations, prev_citations)
+            item["citations"] = final_citations
+
+            if final_citations > incoming_citations:
+                item["highlight"] = compute_highlight_label(final_citations)
+            elif not str(item.get("highlight") or "").strip() and str(prev.get("highlight") or "").strip():
+                item["highlight"] = str(prev["highlight"]).strip()
 
             prev_cover = sanitize_url(prev.get("cover_url"))
             if prev_cover and not is_generic_cover_url(prev_cover):
@@ -245,25 +283,36 @@ def merge_and_deduplicate_papers(
             if not sanitize_url(prev.get("file_img")):
                 item["file_img"] = ""
 
-            if not str(item.get("authors") or "").strip() and str(prev.get("authors") or "").strip():
-                item["authors"] = str(prev["authors"]).strip()
+            for field in curated_text_fields:
+                if not str(item.get(field) or "").strip() and str(prev.get(field) or "").strip():
+                    item[field] = str(prev[field]).strip()
+        else:
+            item["citations"] = incoming_citations
+            if item.get("cover_url"):
+                owner_doi = existing_cover_owner.get(normalize_cover_key(item["cover_url"]))
+                is_owned_by_other = bool(owner_doi and owner_doi != bare_doi)
+                if is_owned_by_other or not is_trusted_figure_cdn(item.get("cover_url")):
+                    item["cover_url"] = ""
 
-            if not str(item.get("altmetric_id") or "").strip() and str(prev.get("altmetric_id") or "").strip():
-                item["altmetric_id"] = str(prev["altmetric_id"]).strip()
+        if bare_doi and not str(item.get("altmetric_id") or "").strip():
+            item["altmetric_id"] = bare_doi
 
         if bare_doi and bare_doi in seen_by_doi:
             existing_idx = seen_by_doi[bare_doi]
             target = merged[existing_idx]
             target["title"] = pick_better_title(str(item.get("title") or ""), str(target.get("title") or ""))
-            target["citations"] = max(int(target.get("citations") or 0), int(item.get("citations") or 0))
+            prev_target_cit = safe_int(target.get("citations"), 0)
+            merged_cit = max(prev_target_cit, safe_int(item.get("citations"), 0))
+            target["citations"] = merged_cit
+            if merged_cit > prev_target_cit:
+                target["highlight"] = compute_highlight_label(merged_cit)
             if item.get("is_star") == "是":
                 target["is_star"] = "是"
             if not target.get("cover_url") and item.get("cover_url"):
                 target["cover_url"] = item["cover_url"]
-            if not target.get("authors") and item.get("authors"):
-                target["authors"] = item["authors"]
-            if not target.get("altmetric_id") and item.get("altmetric_id"):
-                target["altmetric_id"] = item["altmetric_id"]
+            for field in curated_text_fields:
+                if not str(target.get(field) or "").strip() and str(item.get(field) or "").strip():
+                    target[field] = str(item[field]).strip()
             continue
 
         if bare_doi:
@@ -316,9 +365,10 @@ def transform_page(page: dict[str, Any]) -> dict[str, Any]:
     cover_url = content_url or journal_url
 
     title_text = join_plain_text((props.get("Title") or {}).get("title")) or "無標題"
-    journal_text = join_plain_text((props.get("Journal") or {}).get("rich_text")) or "Unknown"
+    journal_text = extract_property_text(props, "Journal") or "Unknown"
     year_text = clean_year(props.get("Year"))
     doi_url = sanitize_url((props.get("DOI") or {}).get("url"))
+    bare_doi = extract_bare_doi(doi_url)
     citations = clean_citations(props.get("Citations"))
 
     star_select = (props.get("打星號論文") or {}).get("select") or {}
@@ -339,6 +389,8 @@ def transform_page(page: dict[str, Any]) -> dict[str, Any]:
         "cover_url": cover_url,
         "file_img": journal_url,
     }
+    if bare_doi:
+        item["altmetric_id"] = bare_doi
 
     # 選擇性擴充欄位：若 Notion 未來新增對應欄位即自動輸出給 A 站使用
     authors = extract_property_text(props, "Authors", "作者")
@@ -364,7 +416,7 @@ def sort_papers(papers: list[dict[str, Any]]) -> list[dict[str, Any]]:
             year_num = 0
         return (
             -year_num,
-            -int(p.get("citations") or 0),
+            -safe_int(p.get("citations"), 0),
             str(p.get("title") or "").lower(),
             str(p.get("doi") or "").lower(),
             str(p.get("id") or ""),
@@ -375,7 +427,7 @@ def sort_papers(papers: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 def compute_h_index(citations_list: list[int]) -> int:
     """根據引用數列表計算 H-index。"""
-    ordered = sorted((max(0, int(c)) for c in citations_list), reverse=True)
+    ordered = sorted((safe_int(c, 0) for c in citations_list), reverse=True)
     h = 0
     for idx, cit in enumerate(ordered, start=1):
         if cit >= idx:
@@ -387,7 +439,7 @@ def compute_h_index(citations_list: list[int]) -> int:
 
 def build_metadata(papers: list[dict[str, Any]], updated_at: str | None = None) -> dict[str, Any]:
     """從論文列表產出統計摘要 metadata。"""
-    citations_list = [int(p.get("citations") or 0) for p in papers]
+    citations_list = [safe_int(p.get("citations"), 0) for p in papers]
     return {
         "schema_version": SCHEMA_VERSION,
         "updated_at": updated_at or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

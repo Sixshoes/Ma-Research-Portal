@@ -176,6 +176,83 @@ class SyncNotionTests(unittest.TestCase):
         self.assertEqual(second["citations"], 44)
         self.assertEqual(second["authors"], "Yuan-Ron Ma")
 
+    def test_merge_preserves_curated_notes_matches_by_id_and_updates_highlight(self):
+        existing = [
+            {
+                "id": "notion-page-42",
+                "title": "舊中文研究論文標題",
+                "year": "2024",
+                "journal": "Applied Surface Science",
+                "doi": "",
+                "citations": 105,
+                "is_star": "是",
+                "highlight": "🔥 國際標竿",
+                "cover_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-024-00001-1/MediaObjects/41598_2024_Fig1_HTML.png",
+                "file_img": "",
+                "authors": "Yuan-Ron Ma*",
+                "takeaway": "室溫下高靈敏度感測",
+                "abstract_excerpt": "此研究探討奈米結構感測機制。",
+            },
+        ]
+        incoming = [
+            {
+                "id": "notion-page-42",
+                "title": "更新後的新標題（無 DOI）",
+                "year": "2024",
+                "journal": "Applied Surface Science",
+                "doi": "",
+                "citations": 12,
+                "is_star": "是",
+                "highlight": "📄 一般論文",
+                "cover_url": "",
+                "file_img": "",
+            },
+            {
+                "id": "notion-page-new-wiley",
+                "title": "New Wiley Paper With Trusted Asset",
+                "year": "2026",
+                "journal": "Small",
+                "doi": "https://doi.org/10.1002/smll.202600001",
+                "citations": 5,
+                "is_star": "否",
+                "highlight": "📄 一般論文",
+                "cover_url": "https://onlinelibrary.wiley.com/cms/asset/abc-123/smll202600001-toc-0001-m.jpg",
+                "file_img": "",
+            },
+            {
+                "id": "notion-page-new-untrusted",
+                "title": "New Paper With Untrusted Cover",
+                "year": "2026",
+                "journal": "Some Journal",
+                "doi": "https://doi.org/10.9999/test.2026",
+                "citations": 2,
+                "is_star": "否",
+                "highlight": "📄 一般論文",
+                "cover_url": "https://untrusted.example.com/private/fig1.jpg",
+                "file_img": "",
+            },
+        ]
+        merged = sync_notion.merge_and_deduplicate_papers(incoming, existing)
+        self.assertEqual(len(merged), 3)
+
+        by_id = {p["id"]: p for p in merged}
+        updated = by_id["notion-page-42"]
+        self.assertEqual(updated["citations"], 105)
+        self.assertEqual(updated["highlight"], "🔥 國際標竿")
+        self.assertEqual(updated["takeaway"], "室溫下高靈敏度感測")
+        self.assertEqual(updated["abstract_excerpt"], "此研究探討奈米結構感測機制。")
+        self.assertTrue(updated["cover_url"].startswith("https://media.springernature.com/"))
+
+        wiley = by_id["notion-page-new-wiley"]
+        self.assertEqual(
+            wiley["cover_url"],
+            "https://onlinelibrary.wiley.com/cms/asset/abc-123/smll202600001-toc-0001-m.jpg",
+        )
+        self.assertEqual(wiley["altmetric_id"], "10.1002/smll.202600001")
+
+        untrusted = by_id["notion-page-new-untrusted"]
+        self.assertEqual(untrusted["cover_url"], "")
+
 
 if __name__ == "__main__":
     unittest.main()
